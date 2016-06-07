@@ -404,7 +404,7 @@ input[type=submit]:hover {
  *
  *-------------------------------- */
 .hotel.container .col-md-6.img {
-  background-image: url("../images/badacsony.jpg");
+  background-image: url("../images/badacsony.JPG");
   height: 370px;
   background-size: cover;
   background-repeat: no-repeat; }
