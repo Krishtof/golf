@@ -158,6 +158,9 @@ input[type=submit]:hover {
  *navbar
  *
  *-------------------------------- */
+header {
+  border-bottom: 1px solid #684607; }
+
 .top-container .row .col-md-12 {
   height: 90px; }
 
