@@ -618,7 +618,7 @@ body.fees {
     body.fees .title h4 {
       padding-bottom: 20px; }
   body.fees .titlebackground {
-    background-image: url("/images/coach.jpg");
+    background-image: url("../images/coach.jpg");
     background-repeat: no-repeat;
     height: 600px;
     background-size: cover;

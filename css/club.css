@@ -612,7 +612,7 @@ body.club .title {
   text-align: center;
   padding: 50px; }
 body.club .titlebackground {
-  background-image: url("/images/mozaik.jpg");
+  background-image: url("../images/mozaik.jpg");
   background-repeat: no-repeat;
   height: 400px;
   background-size: cover; }

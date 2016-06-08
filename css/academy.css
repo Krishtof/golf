@@ -615,7 +615,7 @@ body.academy .title {
   body.academy .title h4 {
     padding-bottom: 20px; }
 body.academy .titlebackground {
-  background-image: url("/images/coach.jpg");
+  background-image: url("../images/coach.jpg");
   background-repeat: no-repeat;
   height: 600px;
   background-size: cover;
