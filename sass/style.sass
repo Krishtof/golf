@@ -201,12 +201,12 @@ header
     max-width: 170px
 
   img
-    max-width: 50px
-    margin-top: 40px
-    margin-bottom: 45px
+    max-width: 140px
+    margin-top: 10px
+    margin-bottom: 5px
 
   p
-    color: $color-6
+    color: rgba(0, 0, 0, 0.55) !important
     font-weight: bold
 
 .sandwich
@@ -251,8 +251,7 @@ header
 .top_menu ul a
   +font-size(30px) 
 
-.top_menu ul
-  margin-top: 260px
+
 
 /* -------------------------------- 
  *
@@ -315,7 +314,9 @@ header
   background: white
 .flickity-page-dots
   bottom: 340px
-
+@media (max-width: 528px)
+  .flickity-page-dots
+    bottom: 300px
 .flickity-prev-next-button
   display: none
 .textholder
