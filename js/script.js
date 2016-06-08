@@ -20,19 +20,17 @@ $('.js-geolocation').on('click', function() {
 * Austin WOEID: 2357536
 */
 $(document).ready(function() {
-  loadWeather('Budapest',''); //@params location, woeid
+  loadWeather('Badacsony',''); //@params location, woeid
 });
 
 function loadWeather(location, woeid) {
   $.simpleWeather({
     location: location,
     woeid: woeid,
-    unit: 'f',
+    unit: 'c',
     success: function(weather) {
       html = '<h2><i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>';
-      html += '<ul><li>'+weather.city+', '+weather.region+'</li>';
       html += '<li class="currently">'+weather.currently+'</li>';
-      html += '<li>'+weather.alt.temp+'&deg;C</li></ul>';  
       
       $("#weather").html(html);
     },
