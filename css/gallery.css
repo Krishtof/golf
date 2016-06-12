@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Hero";
+  src: url("../fonts/Hero-Light.eot");
+  src: local("Hero"), local("Hero"), url("../fonts/Hero-Light.woff") format("woff"), url("../fonts/Hero-Light.ttf") format("truetype"), url("../fonts/Hero-Light.svg#Hero") format("svg"); }
+/* --------------------------------
+ *
+ *navbar
+ *
+ *-------------------------------- */
+body.gallery .logo_container {
+  max-width: 100px;
+  border: none;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  z-index: 10000;
+  margin-top: -1px;
+  float: initial; }
+  @media only screen and (min-width: 992px) {
+    body.gallery .logo_container {
+      max-width: 100px;
+      margin: inherit; } }
+  body.gallery .logo_container img {
+    max-width: 50px;
+    margin-top: 20px;
+    margin-bottom: 5px; }
+body.gallery .horizontal {
+  left: 70px; }
+
+/* --------------------------------
+ *
+ *title
+ *
+ *-------------------------------- */
+body.gallery {
+  text-align: center; }
+  body.gallery .title {
+    text-align: center;
+    padding: 50px;
+    max-width: 800px;
+    padding-bottom: 0px; }
+    body.gallery .title h4 {
+      padding-bottom: 20px; }
+  body.gallery .titlebackground {
+    background-image: url("../images/coach.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    background-position: center; }
+  body.gallery .prices {
+    max-width: 800px;
+    text-align: center;
+    padding-bottom: 50px; }
+    body.gallery .prices .table-responsive {
+      text-align: left;
+      margin-top: 40px; }
+      body.gallery .prices .table-responsive td:first-child {
+        font-weight: bold; }
+    body.gallery .prices .btn {
+      margin-bottom: 40px; }
+    body.gallery .prices h4 {
+      margin-bottom: 40px; }
+  body.gallery .rent {
+    padding-bottom: 50px; }
