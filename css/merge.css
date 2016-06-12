@@ -190,11 +190,15 @@ header {
       max-width: 170px; } }
   @media only screen and (min-width: 992px) {
     .logo_container {
-      margin: inherit; } }
+      margin: inherit;
+      margin-top: -1px; } }
   .logo_container img {
-    max-width: 140px;
+    max-width: 110px;
     margin-top: 10px;
     margin-bottom: 5px; }
+    @media only screen and (min-width: 992px) {
+      .logo_container img {
+        max-width: 140p; } }
   .logo_container p {
     color: rgba(0, 0, 0, 0.55) !important;
     font-weight: bold;
