@@ -3028,6 +3028,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/gallery.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/gallery.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/gallery.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -3094,13 +3103,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/badacsony.JPG": {
+	"\/images\/badacsony.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 745266,
-		"inputAbbreviatedPath": "\/images\/badacsony.JPG",
-		"outputAbbreviatedPath": "\/images\/badacsony.JPG",
+		"inputAbbreviatedPath": "\/images\/badacsony.jpg",
+		"outputAbbreviatedPath": "\/images\/badacsony.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3248,6 +3257,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/heviz.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 287515,
+		"inputAbbreviatedPath": "\/images\/heviz.jpg",
+		"outputAbbreviatedPath": "\/images\/heviz.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/hotelbalaton.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3266,6 +3286,17 @@
 		"initialSize": 1.30737e+06,
 		"inputAbbreviatedPath": "\/images\/junior.jpg",
 		"outputAbbreviatedPath": "\/images\/junior.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/keszthely.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 320136,
+		"inputAbbreviatedPath": "\/images\/keszthely.jpg",
+		"outputAbbreviatedPath": "\/images\/keszthely.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3677,6 +3708,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/szigliget.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 999294,
+		"inputAbbreviatedPath": "\/images\/szigliget.jpg",
+		"outputAbbreviatedPath": "\/images\/szigliget.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thany.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 342566,
+		"inputAbbreviatedPath": "\/images\/thany.jpg",
+		"outputAbbreviatedPath": "\/images\/thany.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/tihany.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11083,
+		"inputAbbreviatedPath": "\/images\/tihany.jpeg",
+		"outputAbbreviatedPath": "\/images\/tihany.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/tihany.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 240665,
+		"inputAbbreviatedPath": "\/images\/tihany.jpg",
+		"outputAbbreviatedPath": "\/images\/tihany.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/wedding.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3709,15 +3784,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/index.jade": {
 		"compileDebug": 1,
