@@ -31,6 +31,15 @@
     <script src="js/flickity.pkgd.min.js"></script>
   </head>
   <body>
+    <div id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" class="modal fade">
+      <div role="document" class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Loader-->
     <!--.loader//.loader_inner
     -->
@@ -135,12 +144,25 @@
         </div>
       </div>
     </div>
+    <div class="map container">
+      <div class="row">
+        <div class="col-md-6 img">
+          <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-primary btn-lg"></button>
+        </div>
+        <div class="col-md-6 txt">
+          <h4>THE MOST EXCITING GOLF CLUB IN EUROPE</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+          <button type="button" class="btn btn-default">Find a hotel</button>
+        </div>
+      </div>
+    </div>
     <div class="subscribe container">
       <div class="row">
         <div class="col-md-12">
           <h4>SUBSCRIBE TO NEWSLETTER</h4>
           <div class="input-group">
             <input id="exampleInputEmail1" type="email" placeholder="Enter email" class="form-control">
+            <input id="exampleInputEmail1" type="name" placeholder="Enter name" class="form-control">
             <button type="submit" class="btn btn-primary">Submit</button>
           </div>
         </div>

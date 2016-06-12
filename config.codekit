@@ -2885,6 +2885,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/club.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/club.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/club.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -2950,6 +2959,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/events.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/events.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/events.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -2960,6 +2978,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
+		},
+	"\/fees.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fees.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/fees.jade": {
 		"compileDebug": 1,
@@ -2992,6 +3019,61 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/images\/10%.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14621,
+		"inputAbbreviatedPath": "\/images\/10%.png",
+		"outputAbbreviatedPath": "\/images\/10%.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/15%.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14303,
+		"inputAbbreviatedPath": "\/images\/15%.png",
+		"outputAbbreviatedPath": "\/images\/15%.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/188uszoda.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87656,
+		"inputAbbreviatedPath": "\/images\/188uszoda.jpg",
+		"outputAbbreviatedPath": "\/images\/188uszoda.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/20%.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15131,
+		"inputAbbreviatedPath": "\/images\/20%.png",
+		"outputAbbreviatedPath": "\/images\/20%.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/826_maxi.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118121,
+		"inputAbbreviatedPath": "\/images\/826_maxi.jpg",
+		"outputAbbreviatedPath": "\/images\/826_maxi.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/badacsony.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2999,6 +3081,17 @@
 		"initialSize": 745266,
 		"inputAbbreviatedPath": "\/images\/badacsony.JPG",
 		"outputAbbreviatedPath": "\/images\/badacsony.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Balatongyörök Panorama___superior.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37208,
+		"inputAbbreviatedPath": "\/images\/Balatongyörök Panorama___superior.jpg",
+		"outputAbbreviatedPath": "\/images\/Balatongyörök Panorama___superior.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3032,6 +3125,17 @@
 		"initialSize": 628656,
 		"inputAbbreviatedPath": "\/images\/bg.jpg",
 		"outputAbbreviatedPath": "\/images\/bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/camp.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.19707e+06,
+		"inputAbbreviatedPath": "\/images\/camp.JPG",
+		"outputAbbreviatedPath": "\/images\/camp.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3219,6 +3323,39 @@
 		"initialSize": 304265,
 		"inputAbbreviatedPath": "\/images\/mozaik.jpg",
 		"outputAbbreviatedPath": "\/images\/mozaik.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/NaturMed Hotel Carbona____superior.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 188864,
+		"inputAbbreviatedPath": "\/images\/NaturMed Hotel Carbona____superior.jpg",
+		"outputAbbreviatedPath": "\/images\/NaturMed Hotel Carbona____superior.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/neptanc.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.219e+06,
+		"inputAbbreviatedPath": "\/images\/neptanc.JPG",
+		"outputAbbreviatedPath": "\/images\/neptanc.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/neptancest.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.34804e+06,
+		"inputAbbreviatedPath": "\/images\/neptancest.JPG",
+		"outputAbbreviatedPath": "\/images\/neptancest.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3516,6 +3653,28 @@
 		"initialSize": 164035,
 		"inputAbbreviatedPath": "\/images\/special.png",
 		"outputAbbreviatedPath": "\/images\/special.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/wedding.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 324689,
+		"inputAbbreviatedPath": "\/images\/wedding.jpg",
+		"outputAbbreviatedPath": "\/images\/wedding.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Zenit hotel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 335226,
+		"inputAbbreviatedPath": "\/images\/Zenit hotel.jpg",
+		"outputAbbreviatedPath": "\/images\/Zenit hotel.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3893,6 +4052,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/news.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/news.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/news.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -4143,6 +4311,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": false
+		},
+	"\/tournaments.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tournaments.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/tournaments.jade": {
 		"compileDebug": 1,
