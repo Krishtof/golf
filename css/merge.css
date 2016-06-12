@@ -417,7 +417,7 @@ header {
  *Tiles
  *
  *-------------------------------- */
-.cover a:hover {
+.cover a:hover, .cover a:active, .cover a:focus {
   text-decoration: none; }
 
 .offers.col-md-4, .eventstile.col-md-4, .course.col-md-4 {
