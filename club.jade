@@ -23,7 +23,7 @@ html
 		link(rel='stylesheet', href='css/flickity.css', media='screen')
 		// Main styles
 		link(rel='stylesheet', href='css/screen.css')
-		link(rel='stylesheet', href='css/club.css')
+		link(rel='stylesheet', href='css/merge.css')
 		script(src='bower_components/jquery/dist/jquery.min.js')
 		script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
 		script(src='js/flickity.pkgd.min.js')
@@ -55,7 +55,20 @@ html
 						a.logo_container(href="index.html")
 							img(src="images/logo-hor.png")
 							#weather
-
+						.horizontal
+							ul
+								li
+									a.active(href='club.html') A Klub
+								li
+									a(href='fees.html') Áraink
+								li
+									a(href='tournaments.html') Tournaments
+								li
+									a(href='#whatever') Galéria
+								li 
+									a(href='news.html') Hírek
+								li
+									a(href='about.html') Rólunk
 						// end Logo
 
 						// Menu
@@ -70,18 +83,23 @@ html
 						nav.top_menu
 							ul
 								li
-									a(href='club.html') The Club
+									a(href='club.html') A Klub
 								li
-									a(href='#about') Golf Course
+									a(href='fees.html') Áraink
 								li
-									a(href='academy.html') Golf Academy
+									a(href='tournaments.html') Tournaments
 								li
-									a(href='fees.html') Fees
+									a(href='#whatever') Galéria
+								li 
+									a(href='news.html') Hírek
 								li
-									a(href='#contact') Events
-								li
-									a(href='#else') About us
-
+									a(href='about.html') Rólunk
+			.container-fluid.second_nav
+				.container
+					a.active(href='club.html') Klub-élet	
+					a(href='http://birdiebook.golfly.hu/8/24/en', target='_blank') Golfpálya
+					a(href='academy.html') Akadémia
+					a(href='events.html') Események
 						// end Menu
 		// end Header
 
@@ -96,8 +114,8 @@ html
 			.row
 				.col-md-6.img
 				.col-md-6.txt
-					h4 CLUBHOUSE
-					p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+					h4 Klubház
+					p A nálunk sportolók, kikapcsolódók elégedettségének úgy gondoljuk, sem az álmosság, sem az éhség, sem pedig a szomjúság nem állhat az útjába. Klubházunkban egy bisztró várja a társasági pihenésre vágyókat, ahol a kínálattal tudatosan a golfozók, futók, biciklizők kedvében szeretnénk járni. Kellemes belső térrel és egy 70 négyzetméteres, fedett terasszal várjuk: a Balaton páratlan panorámája, az északi partszakasz tanúhegyei és természeti értékei gondoskodnak róla, hogy a golfélmény mellett a miliő is megelégedésükre szolgáljon. 
 
 
 		// restaurant
@@ -105,61 +123,51 @@ html
 			.row
 				.col-md-6.img
 				.col-md-6.txt
-					h4 HOTEL
-					p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+					h4 Étterem
+					p Szeretettel várja Önöket az Imperial Coffee & Bistro! Bisztrónkban egy-egy finom kávé erejéig bármikor megpihenhet két jól sikerült ütés között, de ha a nap végén valamelyik bor specialitást kóstolná meg barátaival, a balatoni borrégió legfinomabb termékeit is megtalálja nálunk. Éhségére napi menüink és folyamatosan változó süteménykínálatunk kínál gyógyírt.
 
 		// beach
 		.beach.container
 			.row
 				.col-md-6.img
 				.col-md-6.txt
-					h4 beach
-					p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+					h4 Strand
+					p Klubunk természeti környezetének legmeghatározóbb eleme a Balaton, Közép-Európa legnagyobb tava. Árnyas vagy éppen napsütötte strandjaival a nyári időszakban igencsak csalogató ajánlatot tár vendégeink elé – egy frissülésnyi csobbanás vagy épp egy kiadós úszás a „magyar tengerben” bármikor jóleshet, Ön számára a zavartalanságot saját klub strandunkkal teremtettük meg. 
 
 		// accomodations
 		.container.accomodations
 			.title
-				h4 Accomodations
-				p Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				h4 Szállásajánlatok
+				p Amennyiben itt tartózkodásához szálláshelyre lenne szüksége, a Golfclub Imperial Balaton segíti a foglalást a környék legkitűnőbb hoteljeibe. Az alábbiakban összegyűjtöttük azokat, amelyeknél klubunk partnerkapcsolatai által Önök  jelentős kedvezménnyel foglalhatnak szobát. Ehhez a következő partnerkóddal tudnak regisztrálni: KÓD
 			.gallery.js-flickity(data-flickity-options='{ "setGallerySize": false }')
 				.gallery-cell.c1
 					.container-fluid
 						.col-md-6.description
-							h4 zenit hotel
-							p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+							h4 Zenit Hotel Balaton****
+							p A Zenit Hotel Balaton**** a hangulatos Balaton-parti Vonyarcvashegyen várja vendégeit, köztük klubunk játékosait, akik 10% kedvezménnyel élvezhetik széleskörű szolgáltatásaikat. Ezek közül a szintén kiemelkedő szépségfarm és wellness-részleg mellett fontos megemlíteni a borkultúra beépítését: vinoterápiás kezelések és boros kádfürdőik valóban kényeztetőnek ígérkeznek.
+							button.btn.btn-default(type='button') Make a reservation 
 						.col-md-6.hotel_placeholder
 
 				.gallery-cell.c2				
 						.col-md-6.description
-							h4 másik hotel
-							p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+							h4 Hotel Európa Fit Superior Hévíz**** 
+							p Az Év Szállodája díjas hotel a gyógytava miatt kiemelt turisztikai célpontnak számító Hévízen fogadja vendégeit. A hotel legnagyobb előnye a családbarát jelleg, a Tripadvisor közönségszavazáson, a szálláshely Magyarországon a harmandik legnépszerűbbnek bizonyult. A wellness rajongói számára különösen érdekes lehet, ráadásul a hévízi gyógyvíz előnyei is érvényesíthetőek gyógyászati kezeléseik során. A golfklub vendégei 20%-os kedvezménnyel szállhatnak meg náluk.
+							button.btn.btn-default(type='button') Make a reservation 
+						.col-md-6.hotel_placeholder
+				.gallery-cell.c3				
+						.col-md-6.description
+							h4 NaturMed Hotel Carbona****superior 
+							p A NaturMed Hotel Carbona szintén kiérdemelte már “Az Év Szállodája” díjat, ami mellett nemzetközi elismerésekkel is büszkélkedhet. Spa részlegén több, mint ezer négyzetméter vízfelület élvezhető, külön látványosság a meditárran hangulatú napozó kert. Wellness-részlege sokféle gyógyhatású programmal (például oxigénterápia, lávaköves masszázs, iszapfürdő), a golfklub vendégeinek a napi belépőből 10%-ot kedvezményt biztosítanak.
+							button.btn.btn-default(type='button') Make a reservation 
+						.col-md-6.hotel_placeholder
+				.gallery-cell.c4			
+						.col-md-6.description
+							h4 Balatongyörök Panorama***superior
+							p A Golfclub Imperial Balaton településének, Balatongyöröknek a legkiválóbb szállodája, klubunk vendégeinek 15% kedvezményt biztosít. Fitness és kardiofitness, valamint wellness lehetőség is hozzáférhető náluk. Emellett terápiás és gyógyászati  kezelések sorát (fizikoterápia, hidroterápia, gyógytorna) is kínálja vendégeinek. 
+							button.btn.btn-default(type='button') Make a reservation 
 						.col-md-6.hotel_placeholder
 		// Footer
-		footer.main_footer.bg_dark
-			.container
-				.col-md-12
-					.copyright
-						© Golf Club Imperials. All rights reserved.
-					.social_wrap
-						ul
-							li
-								a(href='#', target='_blank')
-									i.fa.fa-twitter
-							li
-								a(href='#', target='_blank')
-									i.fa.fa-instagram
-							li
-								a(href='#', target='_blank')
-									i.fa.fa-facebook
-							li
-								a(href='#', target='_blank')
-									i.fa.fa-github
-							li
-								a(href='#', target='_blank')
-									i.fa.fa-dribbble
-							li
-								a(href='#', target='_blank')
-									i.fa.fa-behance
+		include ./footer
 		// end Footer
 		// some scripts for IE
 		//if lt IE 9

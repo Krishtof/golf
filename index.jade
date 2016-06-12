@@ -23,7 +23,7 @@ html
     link(rel='stylesheet', href='css/flickity.css', media='screen')
     // Main styles
     link(rel='stylesheet', href='css/screen.css')
-    link(rel='stylesheet', href='css/style.css')
+    link(rel='stylesheet', href='css/merge.css')
     script(src='bower_components/jquery/dist/jquery.min.js')
     script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
     script(src='js/jquery.simpleWeather.min.js')
@@ -57,7 +57,21 @@ html
             .logo_container
               img(src="images/logo.png")
               #weather
+            .horizontal
+              ul
+                li
+                  a(href='club.html') A Klub
+                li
+                  a(href='fees.html') Áraink
+                li
+                  a(href='tournaments.html') Tournaments
 
+                li
+                  a(href='fees.html') Galéria
+                li 
+                  a(href='news.html') Hírek
+                li
+                  a(href='about.html') Rólunk
             // end Logo
 
             // Menu
@@ -72,18 +86,17 @@ html
             nav.top_menu
               ul
                 li
-                  a(href='club.html') The Club
+                  a(href='club.html') A Klub
                 li
-                  a(href='#about') Golf Course
+                  a(href='fees.html') Áraink
                 li
-                  a(href='academy.html') Golf Academy
+                  a(href='tournaments.html') Tournaments
                 li
-                  a(href='fees.html') Fees
+                  a(href='fees.html') Galéria
+                li 
+                  a(href='news.html') Hírek
                 li
-                  a(href='#contact') Events
-                li
-                  a(href='#else') About us
-
+                  a(href='about.html') Rólunk
             // end Menu
     // end Header
 
@@ -101,13 +114,13 @@ html
             .gallery-cell.b2
           .container
             .col-md-4.offers
-              h4 ~ Special offers ~
+              h3 ~ Special offers ~
               p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
             .col-md-4.course
-              h4 ~ Golf course ~
+              h3 ~ Golf course ~
               p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
-            .col-md-4.events
-              h4 ~ Events ~
+            .col-md-4.eventstile
+              h3 ~ Tournaments ~
               p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
 
 
@@ -186,31 +199,7 @@ html
 
  
     // Footer
-    footer.main_footer.bg_dark
-      .container
-        .col-md-12
-          .copyright
-            © Golf Club Imperials. All rights reserved.
-          .social_wrap
-            ul
-              li
-                a(href='#', target='_blank')
-                  i.fa.fa-twitter
-              li
-                a(href='#', target='_blank')
-                  i.fa.fa-instagram
-              li
-                a(href='#', target='_blank')
-                  i.fa.fa-facebook
-              li
-                a(href='#', target='_blank')
-                  i.fa.fa-github
-              li
-                a(href='#', target='_blank')
-                  i.fa.fa-dribbble
-              li
-                a(href='#', target='_blank')
-                  i.fa.fa-behance
+    include ./footer
     // end Footer
     // some scripts for IE
     //if lt IE 9

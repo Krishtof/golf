@@ -26,7 +26,7 @@ html
 		link(rel='stylesheet', href='css/merge.css')
 		script(src='bower_components/jquery/dist/jquery.min.js')
 		script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
-	body.fees
+	body.events
 
 
 		// Loader
@@ -57,9 +57,9 @@ html
 						.horizontal
 							ul
 								li
-									a(href='club.html') A Klub
+									a.active(href='club.html') A Klub
 								li
-									a.active(href='fees.html') Áraink
+									a(href='fees.html') Áraink
 								li
 									a(href='tournaments.html') Tournaments
 								li
@@ -93,104 +93,54 @@ html
 									a(href='news.html') Hírek
 								li
 									a(href='about.html') Rólunk
-
 						// end Menu
+			.container-fluid.second_nav
+				.container
+					a(href='club.html') Klub-élet	
+					a(href='http://birdiebook.golfly.hu/8/24/en', target='_blank') Golfpálya
+					a(href='academy.html') Akadémia
+					a.active(href='events.html') Események
+
 		// end Header
 
 		// title
 		.container.title
-			h4 Áraink
-			p Árainkról, forintban és euróban kifejezve, az alábbi táblázatok nyújtanak tájékoztatást. A pályahasználat, játék költsége mellett információt talál az oktatás, az eszközbérlés, és a tagság díjáról is.
-
-		// title
+			h4 Események
+		.container.text
+			p A Golfclub Imperial Balaton és az Imperial Coffee & Bistro a golfpálya hagyományos funkciói mellett egyéb lehetőségeket is biztosít az érdeklődőknek. Igény szerint közösségi és családi programok szervezésére is rendelkezésükre bocsátjuk száz fős rendezvénytermünket és a hozzá tartozó területeket! 
+		.container.kepek
+			.col-md-6.tile1
+			.col-md-6
+				.container-fluid
+					.col-md-12.tile2
+					.col-md-12.tile3
 		.container.prices
-			h3 Felnőtt árak
+			h3 Csapatépítő foglalkozás
+			p Egy ismeretlen sportág felfedezése, vagy egy már kedvelt közös űzése nagyon jó program a társaság összehozására. Erre szeretnénk lehetőséget teremteni másfél órás csapatépítő foglalkozásainkkal, melyek ebéddel vagy akár vacsorával is kombinálhatóak. A táblázatban szereplő árak másfél órás, oktató által vezetett foglalkozást tartalmaznak ezen felül pedig igény szerint étkezést is biztosítunk.
 			.table-responsive
 				table.table
 					tr
-						td Greenfee 9 lyuk
-						td 8 500 Ft
+						td Csapatépítő foglalkozás 20 főtől
+						td 2 400 Ft/fő
 					tr
-						td Greenfee 2*9 lyuk
-						td 12 500 Ft
-
-			h3 Junior és egyetemista árak
-			.table-responsive
-				table.table
-					tr
-						td Greenfee 9 lyuk
-						td 4 500 Ft
-					tr
-						td Greenfee 2*9 lyuk
-						td 6 000 Ft
-
-			h3 Junior és egyetemista árak
-			.table-responsive
-				table.table
-					tr
-						td 9+1 ingyenes alkalom (9 lyuk)
-						td 76 500 Ft
-					tr
-						td 9+1 ingyenes alkalom (2*9 lyuk)
-						td 112 500 Ft
+						td Csapatépítő foglalkozás 10 főtől
+						td 3 600 Ft/fő
+			h3 Esküvő
+			p A festői táj, a finom borok, a nagy terek mind-mind ideális körülményeket biztosítanak egy ifjú pár számára, hogy klubházunkat és pályánkat válasszák életük fontos momentumának helyszínéül. A hely bérlése már 80000 Ft+ Áfa áron lehetséges.
+			h3 Családi rendezvény
+			p Legyen szó születésnapról, keresztelőről vagy évfordulóról, a balatoni környezet, a nagy zöldterület és a tágas rendezvényház nyitott kapukkal várja Önöket és rokonaikat.Amennyiben felkeltettük érdeklődését további információkért és árajánlatért forduljon hozzánk bizalommal!
+			p Telefon: +36/83 346 031
+			p E-mail: clubhouse@golfclubimperial.hu 
+			h3 Junior táborok
+			p A tavalyi nagysikerű napközis golf táborunkat idén júliusban is megrendezzük  x és  y között, hétfőtől péntekig reggel 8-tól délután 17 óráig várunk titeket. A táborban napi 2x120 perces golf oktatás, változatos szabadidős programok és napi háromszori étkezés biztosított.
+			p Hogyan tudtok jelentkezni?
+			p - A  jelentkezési lap elküldésével a tabor@golfclubimperial.hu e-mail címre
+			p - Tábor ára: xxx
+			p - Fizetés módja: készpénz vagy átutalás
+			p - Jelentkezési feltétel: x -tól y éves korig
 
 
-
-			h3 Bérlés
-			p Klubunk a játékhoz néhány kiegészítő eszköz kölcsönzésére is lehetőséget biztosít. A kellemes kikapcsolódáshoz bérelhető e-car, bag, trolley áll rendelkezésre, illetve természetesen az elengedhetetlen Driving Range labdák. 
-			.table-responsive
-				table.table
-					tr
-						td E-Car
-						td 9 lyuk
-						td 5 000 Ft
-					tr
-						td E-Car
-						td 18 lyuk
-						td 8 000 Ft
-					tr
-						td Bag (ütőket tartalmazza)
-						td 9 lyuk
-						td 3 000 Ft
-					tr
-						td Bag
-						td 18 lyuk
-						td 4 800 Ft
-					tr
-						td Trolly
-						td 
-						td 1 200 Ft
-					tr
-						td Driving Range labda
-						td 25 labda
-						td 800 Ft
-			h3 Tagság
-			.table-responsive
-				table.table
-
-					tr
-						td Beiratkozási díj - Rendes klubtagság
-						td 256 000 Ft
-
-					tr
-						td Beiratkozási díj - Partnertagság (házastárs, élettárs)
-						td 180 000 Ft
-					tr
-						td Éves tagdíj
-						td 170 000 Ft
-					tr
-						td Éves tagdíj - Másodklubtagság
-						td 130 000 Ft
-					tr
-						td Éves tagdíj - egyetemista 18-25 éves korig
-						td 90 000 Ft						
-					tr
-						td Éves tagdíj - Junior 12-18 éves korig
-						td 50 000 Ft
-
-			h3 Kiemelt ajánlatunk	
-			p A hét folyamán először a keddi napon készülünk kiemelt kedvezménnyel, aminek ebben az esetben a szeniorok örülhetnek - nekik 20% kedvezményt biztosítunk ekkor! Vasárnap a 20%-os mértékű árleszállítás azokra vár, akik egyik klubtagunk vendégeként érkeznek hozzánk. Külön említenénk golfízelítő kezdő tanfolyamunkat, ami minimum hat résztvevő esetén már akár ezer forintos egy főre és alkalomra eső ártól elérhető!
-
+		// coaches
 		// Footer
 		include ./footer
 		// end Footer

@@ -1,4 +1,14 @@
-@import ../sass/style
+
+
+@import ../partials/variables
+
+// colors, fonts etc...
+
+@import ../partials/mixins
+
+// custom mixins
+
+@import ../partials/layout
 
 /* -------------------------------- 
  *
@@ -18,13 +28,16 @@ body.fees
 		margin-top: -1px
 		float: initial
 
-		+MQ (S)
+		+MQ (M)
 			max-width: 100px
+			margin: inherit
 
 		img
 			max-width: 50px
 			margin-top: 20px
 			margin-bottom: 5px
+	.horizontal
+		left: 70px
 /* -------------------------------- 
  *
  *title
@@ -47,21 +60,20 @@ body.fees
 		background-size: cover
 		background-position: center
 
-	.prices, .rent
-		
-		.title
-			background-color: $color-4
-			margin: 0 auto
-			padding: 5px
+	.prices
+		max-width: 800px
+		text-align: center
+		padding-bottom: 50px
+		.table-responsive
+			text-align: left
+			margin-top: 40px
+
+			td:first-child
+				font-weight: bold
 
 		.btn
-			margin-top: 40px
 			margin-bottom: 40px
-	.descripton
-		p
-			max-width: 800px
-			margin: 0 auto
-			margin-top: 40px
+		h4
 			margin-bottom: 40px
 
 	.rent

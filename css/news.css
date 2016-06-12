@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Hero";
+  src: url("../fonts/Hero-Light.eot");
+  src: local("Hero"), local("Hero"), url("../fonts/Hero-Light.woff") format("woff"), url("../fonts/Hero-Light.ttf") format("truetype"), url("../fonts/Hero-Light.svg#Hero") format("svg"); }
+/* --------------------------------
+ *
+ *navbar
+ *
+ *-------------------------------- */
+body.news .logo_container {
+  max-width: 100px;
+  border: none;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  z-index: 10000;
+  margin-top: -1px;
+  float: initial; }
+  @media only screen and (min-width: 992px) {
+    body.news .logo_container {
+      max-width: 100px;
+      margin: inherit; } }
+  body.news .logo_container img {
+    max-width: 50px;
+    margin-top: 20px;
+    margin-bottom: 5px; }
+body.news .horizontal {
+  left: 70px; }
+
+/* --------------------------------
+ *
+ *first blog post
+ *
+ *-------------------------------- */
+body.news .cover {
+  background-image: url(../images/SAM_0318.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px; }
+  @media only screen and (min-width: 767px) {
+    body.news .cover {
+      height: 500px; } }

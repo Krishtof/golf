@@ -23,7 +23,7 @@ html
 		link(rel='stylesheet', href='css/flickity.css', media='screen')
 		// Main styles
 		link(rel='stylesheet', href='css/screen.css')
-		link(rel='stylesheet', href='css/academy.css')
+		link(rel='stylesheet', href='css/merge.css')
 		script(src='bower_components/jquery/dist/jquery.min.js')
 		script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
 	body.academy
@@ -54,7 +54,20 @@ html
 						a.logo_container(href="index.html")
 							img(src="images/logo-hor.png")
 							#weather
-
+						.horizontal
+							ul
+								li
+									a.active(href='club.html') A Klub
+								li
+									a(href='fees.html') Áraink
+								li
+									a(href='tournaments.html') Tournaments
+								li
+									a(href='#whatever') Galéria
+								li 
+									a(href='news.html') Hírek
+								li
+									a(href='about.html') Rólunk
 						// end Logo
 
 						// Menu
@@ -69,25 +82,32 @@ html
 						nav.top_menu
 							ul
 								li
-									a(href='club.html') The Club
+									a(href='club.html') A Klub
 								li
-									a(href='#about') Golf Course
+									a(href='fees.html') Áraink
 								li
-									a(href='academy.html') Golf Academy
+									a(href='tournaments.html') Tournaments
 								li
-									a(href='fees.html') Fees
+									a(href='#whatever') Galéria
+								li 
+									a(href='news.html') Hírek
 								li
-									a(href='#contact') Events
-								li
-									a(href='#else') About us
-
+									a(href='about.html') Rólunk
+			.container-fluid.second_nav
+				.container
+					a(href='club.html') Klub-élet	
+					a(href='http://birdiebook.golfly.hu/8/24/en', target='_blank') Golfpálya
+					a.active(href='academy.html') Akadémia
+					a(href='events.html') Események
 						// end Menu
 		// end Header
 
 		// title
 		.container.title
 			h4 GOLF ACADEMY
-			p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+			p Nem számít, hogy alaptechnikák vagy rafináltabb fortélyok területén igényli-e a szakmai támogatást, oktatónk, Décsy Attila örömmel lesz segítségére. Többéves tapasztalatával várja a gyermekek, felnőttek és pályaalkalmassági vizsga előtt állók megkeresését is. Fontos, hogy képzéseink a magyar mellett angol és német nyelven is elérhetők. Amennyiben felkeltettük érdeklődését, forduljon hozzánk bizalommal az alábbi elérhetőségek egyikén!
+			p Email: d.attila@golfclubimperial.hu
+			p Telefon: +36/30 940 5830
 		.container.titlebackground
 
 		// coaches
@@ -95,33 +115,98 @@ html
 			img(src="images/coach2.jpg")
 			h3 Décsy Attila
 			h2 coach
+			p Oktatónk, Décsy Attila egész életében meghatározó szerepet szánt a testmozgásnak: versenyszerű teniszezéssel, kosárlabdával és küzdősportok űzése után először testnevelő tanári diplomát, majd a golffal megismerkedve PGA Qualified Professional szakedzői és golfbírói képesítést is szerzett. A Golfclub Imperial Balaton látogatói 2012 óta számíthatnak készséges segítségére. 
+
+
+		.container.prices
+			h3 Golfízelítő tanfolyam csoportos érdeklődőknek
+			p Ki szeretne próbálni egy bő félévezredes hagyományokkal bíró világsportot, de nem tudja, kihez fordulhatna az alapvető technikákkal kapcsolatban? Azon érdeklődőinknek, akik megismerkednének a sportággal egy tíz alkalmas foglalkozás kereteiben, golfízelítő csomagunkat ajánljuk. Érkezzen megfelelő öltözetben és sima talpú cipőben – a kellékekkel egy kis bevezető után a gyakorlópályán fogjuk várni. Hogy csoportjaink jókedvét és figyelmét semmilyen körülmény se vehesse el, számukra ásványvízzel, limonádéval, szendviccsel és jeges kiskendőkkel kedveskedünk. Ezekkel az apróságokkal szeretnénk biztosítani, hogy a balatoni nyár is biztosan tovább emelje a játékélményt!
+			.table-responsive
+				table.table
+					tr
+						td Minimum 6 fő esetén
+						td 10 alkalom (10*50 perc)
+						td 1 000 Ft/fő/alkalom
+					tr
+						td Minimum 4 fő esetén
+						td 10 alkalom(10*50 perc)
+						td 2 400 Ft/fő/alkalom
+					tr
+						td Minimum 2 fő esetén
+						td 10 alkalom(10*50 perc)
+						td 3 600 Ft/fő/alkalom
+			button.btn.btn-default(type='button') Make a reservation
+
+
+			h3 Kezdő egyéni órák
+			p Természetesen a csoportos golfízelítő mellett egyéni oktatásra is lehetőség nyílik minden szinten, az egyalkalmas bevezetőtől kezdve a pályaalkalmassági és a versenypálya-alkalmassági vizsgákkal záródó tanfolyamokig bezáródóan.
+			.table-responsive
+				table.table
+
+					tr
+						td Egyéni óra 
+						td 30 perc
+						td 5 500 Ft
+					tr
+						td Egyéni óra 
+						td 50 perc
+						td 8 500 Ft
+					tr
+						td Tíz órás egyéni csomag
+						td 10*50 perc
+						td 76 500 Ft
+					tr
+						td Pályaalkalmassági tanfolyam
+						td 10*50 perc
+						td 76 500 Ft
+					tr
+						td Versenypálya alkalmassági tanfolyam
+						td 10*50 perc
+						td 76 500 Ft
+			button.btn.btn-default(type='button') Make a reservation
+
+			h3 Haladó, tökéletesítő tanfolyamunk
+			p Amennyiben Ön már jól ismeri a golfetikettet, a sportág alapszabályait és alapvető technikáit, haladó oktatásunkat ajánljuk. A tanfolyam célja a technika tökéletesítése, a rafinált helyzetek, a bunkerjáték és a pályastratégia elsajátítása, végül központi szabályvizsgával zárul. (45 HCP)
+			.table-responsive
+				table.table
+					tr
+						td Tanfolyamok klubtagok számára 
+						td 10*50 perc
+						td 58 000 Ft/fő
+					tr
+						td 3-6 fő esetén 
+						td 10*50 perc
+						td 38 000 Ft/fő
+			button.btn.btn-default(type='button') Make a reservation
+
+			h3 Tanfolyamok klubtagok számára
+			p Klubtagjaink számára egy remek lehetőség, hogy oktatásunkban kedvezményes áron részesülhetnek. Természetesen számukra is ajánlunk két fős kedvezményes lehetőséget, valamint több alkalmat magában foglaló csomagot is. 
+
+			.table-responsive
+				table.table
+					tr
+						td Egyéni óra 
+						td 30 perc
+						td 4 500 Ft
+					tr
+						td Egyéni óra 
+						td 50 perc
+						td 7 500 Ft
+					tr
+						td Két fős oktatás
+						td 50 perc
+						td 8 800 Ft
+					tr
+						td Tíz órás csomag
+						td 10*50 perc
+						td 67 500 Ft
+					tr
+						td Tíz órás csomag, klubba való belépéskor
+						td 10*50 perc
+						td 56 000 Ft
 			button.btn.btn-default(type='button') Make a reservation
 		// Footer
-		footer.main_footer.bg_dark
-			.container
-				.col-md-12
-					.copyright
-						© Golf Club Imperials. All rights reserved.
-					.social_wrap
-						ul
-							li
-								a(href='#', target='_blank')
-									i.fa.fa-twitter
-							li
-								a(href='#', target='_blank')
-									i.fa.fa-instagram
-							li
-								a(href='#', target='_blank')
-									i.fa.fa-facebook
-							li
-								a(href='#', target='_blank')
-									i.fa.fa-github
-							li
-								a(href='#', target='_blank')
-									i.fa.fa-dribbble
-							li
-								a(href='#', target='_blank')
-									i.fa.fa-behance
+		include ./footer
 		// end Footer
 		// some scripts for IE
 		//if lt IE 9

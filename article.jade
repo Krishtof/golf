@@ -26,7 +26,7 @@ html
 		link(rel='stylesheet', href='css/merge.css')
 		script(src='bower_components/jquery/dist/jquery.min.js')
 		script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
-	body.fees
+	body.news
 
 
 		// Loader
@@ -59,13 +59,13 @@ html
 								li
 									a(href='club.html') A Klub
 								li
-									a.active(href='fees.html') Áraink
+									a(href='fees.html') Áraink
 								li
 									a(href='tournaments.html') Tournaments
 								li
 									a(href='#whatever') Galéria
 								li 
-									a(href='news.html') Hírek
+									a.active(href='news.html') Hírek
 								li
 									a(href='about.html') Rólunk
 						// end Logo
@@ -90,106 +90,24 @@ html
 								li
 									a(href='#whatever') Galéria
 								li 
-									a(href='news.html') Hírek
+									a(href='#whatever') Hírek
 								li
 									a(href='about.html') Rólunk
-
 						// end Menu
 		// end Header
 
 		// title
+		.container.cover
+
 		.container.title
-			h4 Áraink
-			p Árainkról, forintban és euróban kifejezve, az alábbi táblázatok nyújtanak tájékoztatást. A pályahasználat, játék költsége mellett információt talál az oktatás, az eszközbérlés, és a tagság díjáról is.
-
-		// title
-		.container.prices
-			h3 Felnőtt árak
-			.table-responsive
-				table.table
-					tr
-						td Greenfee 9 lyuk
-						td 8 500 Ft
-					tr
-						td Greenfee 2*9 lyuk
-						td 12 500 Ft
-
-			h3 Junior és egyetemista árak
-			.table-responsive
-				table.table
-					tr
-						td Greenfee 9 lyuk
-						td 4 500 Ft
-					tr
-						td Greenfee 2*9 lyuk
-						td 6 000 Ft
-
-			h3 Junior és egyetemista árak
-			.table-responsive
-				table.table
-					tr
-						td 9+1 ingyenes alkalom (9 lyuk)
-						td 76 500 Ft
-					tr
-						td 9+1 ingyenes alkalom (2*9 lyuk)
-						td 112 500 Ft
+			.container.sub
+				h3 First blog post
+				p 2016 May 16
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
-
-			h3 Bérlés
-			p Klubunk a játékhoz néhány kiegészítő eszköz kölcsönzésére is lehetőséget biztosít. A kellemes kikapcsolódáshoz bérelhető e-car, bag, trolley áll rendelkezésre, illetve természetesen az elengedhetetlen Driving Range labdák. 
-			.table-responsive
-				table.table
-					tr
-						td E-Car
-						td 9 lyuk
-						td 5 000 Ft
-					tr
-						td E-Car
-						td 18 lyuk
-						td 8 000 Ft
-					tr
-						td Bag (ütőket tartalmazza)
-						td 9 lyuk
-						td 3 000 Ft
-					tr
-						td Bag
-						td 18 lyuk
-						td 4 800 Ft
-					tr
-						td Trolly
-						td 
-						td 1 200 Ft
-					tr
-						td Driving Range labda
-						td 25 labda
-						td 800 Ft
-			h3 Tagság
-			.table-responsive
-				table.table
-
-					tr
-						td Beiratkozási díj - Rendes klubtagság
-						td 256 000 Ft
-
-					tr
-						td Beiratkozási díj - Partnertagság (házastárs, élettárs)
-						td 180 000 Ft
-					tr
-						td Éves tagdíj
-						td 170 000 Ft
-					tr
-						td Éves tagdíj - Másodklubtagság
-						td 130 000 Ft
-					tr
-						td Éves tagdíj - egyetemista 18-25 éves korig
-						td 90 000 Ft						
-					tr
-						td Éves tagdíj - Junior 12-18 éves korig
-						td 50 000 Ft
-
-			h3 Kiemelt ajánlatunk	
-			p A hét folyamán először a keddi napon készülünk kiemelt kedvezménnyel, aminek ebben az esetben a szeniorok örülhetnek - nekik 20% kedvezményt biztosítunk ekkor! Vasárnap a 20%-os mértékű árleszállítás azokra vár, akik egyik klubtagunk vendégeként érkeznek hozzánk. Külön említenénk golfízelítő kezdő tanfolyamunkat, ami minimum hat résztvevő esetén már akár ezer forintos egy főre és alkalomra eső ártól elérhető!
 
 		// Footer
 		include ./footer

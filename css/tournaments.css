@@ -35,26 +35,29 @@ h1 {
 h2 {
   font-family: "Playfair Display", serif !important;
   font-size: 20px !important;
-  color: #684607 !important;
-  line-height: 23px !important; }
+  color: #353942 !important;
+  line-height: 23px !important;
+  margin: 20px; }
 
 h3 {
   font-family: "Playfair Display", serif !important;
-  font-size: 30px !important;
-  color: #684607 !important;
-  line-height: 23px !important; }
+  font-size: 25px !important;
+  color: #353942 !important;
+  line-height: 23px !important;
+  margin: 30px; }
 
 h4 {
   font-family: "Playfair Display", serif !important;
   font-size: 26px !important;
   color: #684607 !important;
-  line-height: 23px !important; }
+  line-height: 23px !important;
+  text-transform: uppercase; }
 
-p {
+p, td {
   font-family: "Playfair Display", serif !important;
   font-size: 15px !important;
   line-height: 23px !important;
-  color: #684607 !important; }
+  color: #353942 !important; }
 
 ol, ul {
   line-height: 23px;
@@ -143,7 +146,7 @@ input[type=submit]:hover {
 .dropdown-menu {
   left: -17px;
   min-width: 95px;
-  z-index: 10000;
+  z-index: 100000;
   top: 40px; }
 
 .dropdown-menu > li {
@@ -172,12 +175,16 @@ header {
   text-align: center;
   margin: 0 auto;
   display: block;
+  margin: 0 auto;
   z-index: 10000;
   margin-top: -1px;
   float: initial; }
   @media only screen and (min-width: 767px) {
     .logo_container {
       max-width: 170px; } }
+  @media only screen and (min-width: 992px) {
+    .logo_container {
+      margin: inherit; } }
   .logo_container img {
     max-width: 140px;
     margin-top: 10px;
@@ -209,10 +216,12 @@ header {
   float: left;
   background-color: white;
   left: 20px;
-  margin-top: -10px; }
+  margin-top: -10px;
+  display: block; }
   @media only screen and (min-width: 992px) {
     .toggle_menu {
-      width: 100px; } }
+      width: 100px;
+      display: none; } }
   .toggle_menu p {
     font-weight: bold;
     margin: 0 5px 0px;
@@ -221,6 +230,28 @@ header {
     @media only screen and (min-width: 992px) {
       .toggle_menu p {
         display: block; } }
+
+.horizontal {
+  max-width: 800px;
+  position: absolute;
+  top: 20px;
+  left: 170px;
+  display: none; }
+  .horizontal li {
+    display: inline-block; }
+  @media only screen and (min-width: 992px) {
+    .horizontal {
+      display: block; } }
+  .horizontal a {
+    text-transform: uppercase;
+    color: #353942; }
+  .horizontal a:active {
+    text-decoration: none; }
+  .horizontal a:hover, .horizontal a:active {
+    text-decoration: none;
+    font-weight: bold; }
+  .horizontal a.active {
+    font-weight: bold; }
 
 .toggle_menu:focus {
   outline: none; }
@@ -249,6 +280,43 @@ header {
     font-weight: bold;
     text-transform: uppercase; }
 
+/* --------------------------------
+ *
+ *secondnav
+ *
+ *-------------------------------- */
+.second_nav {
+  background-color: #684607;
+  height: 50px; }
+  .second_nav .container {
+    padding-top: 5px; }
+  .second_nav a {
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    position: relative;
+    top: 2px;
+    font-size: 13px;
+    color: #dadada;
+    text-transform: uppercase; }
+  .second_nav a.active {
+    color: white;
+    font-weight: bold; }
+  .second_nav a:hover {
+    color: white;
+    text-decoration: none; }
+
+@media (min-width: 360px) {
+  .second_nav a {
+    top: 10px; } }
+@media (min-width: 460px) {
+  .second_nav a {
+    padding: 20px;
+    padding-left: 0px;
+    font-size: 16px;
+    top: -10px; } }
 /* --------------------------------
  *
  *cover
@@ -338,7 +406,7 @@ header {
  *Tiles
  *
  *-------------------------------- */
-.offers.col-md-4, .events.col-md-4, .course.col-md-4 {
+.offers.col-md-4, .eventstile.col-md-4, .course.col-md-4 {
   margin: 10px;
   background-color: white;
   padding: 40px;
@@ -349,10 +417,14 @@ header {
   transition: box-shadow 0.3s ease;
   text-align: center; }
   @media only screen and (min-width: 992px) {
-    .offers.col-md-4, .events.col-md-4, .course.col-md-4 {
+    .offers.col-md-4, .eventstile.col-md-4, .course.col-md-4 {
       text-align: left; } }
+  .offers.col-md-4 h3, .eventstile.col-md-4 h3, .course.col-md-4 h3 {
+    color: #353942 !important;
+    margin: initial;
+    margin-bottom: 10px; }
 
-.offers.col-md-4:hover, .events.col-md-4:hover, .course.col-md-4:hover {
+.offers.col-md-4:hover, .eventstile.col-md-4:hover, .course.col-md-4:hover {
   -webkit-box-shadow: 14px 14px 15px -10px rgba(0, 0, 0, 0.54);
   -moz-box-shadow: 14px 14px 15px -10px rgba(0, 0, 0, 0.54);
   box-shadow: 14px 14px 15px -10px rgba(0, 0, 0, 0.54);
@@ -366,11 +438,11 @@ header {
       margin: 9px;
       margin-top: -280px; } }
 
-.events.col-md-4 {
+.eventstile.col-md-4 {
   margin: 10px;
   margin-top: 0; }
   @media only screen and (min-width: 992px) {
-    .events.col-md-4 {
+    .eventstile.col-md-4 {
       margin: 9px;
       margin-top: -280px; } }
 
@@ -396,7 +468,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat; }
 
-.events {
+.eventstile {
   background-image: url("../images/latest.png");
   background-size: cover;
   background-repeat: no-repeat; }
@@ -576,3 +648,45 @@ header {
   background-color: #353942; }
   .main_footer .heart, .main_footer a, .main_footer .copyright {
     color: white; }
+
+/* --------------------------------
+ *
+ *navbar
+ *
+ *-------------------------------- */
+body.tournaments .logo_container {
+  max-width: 100px;
+  border: none;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  z-index: 10000;
+  margin-top: -1px;
+  float: initial; }
+  @media only screen and (min-width: 992px) {
+    body.tournaments .logo_container {
+      max-width: 100px;
+      margin: inherit; } }
+  body.tournaments .logo_container img {
+    max-width: 50px;
+    margin-top: 20px;
+    margin-bottom: 5px; }
+body.tournaments .horizontal {
+  left: 70px; }
+
+/* --------------------------------
+ *
+ *title
+ *
+ *-------------------------------- */
+body.tournaments {
+  text-align: center; }
+  body.tournaments .title {
+    text-align: center;
+    padding: 50px;
+    max-width: 800px;
+    padding-bottom: 0px; }
+    body.tournaments .title h4 {
+      padding-bottom: 20px; }

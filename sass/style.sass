@@ -59,7 +59,7 @@ h2
 
 h3
   font-family: "Playfair Display", serif !important
-  font-size: 30px !important
+  font-size: 25px !important
   color: $color-3 !important
   line-height: 23px !important
   margin: 30px
@@ -69,7 +69,8 @@ h4
   font-size: 26px !important
   color: $color-1 !important
   line-height: 23px !important  
-p
+  text-transform: uppercase
+p, td
   font-family: "Playfair Display", serif !important
   font-size: 15px !important 
   line-height: 23px !important
@@ -177,6 +178,15 @@ input[type=submit]:hover
   padding: 15px
 
 
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th
+
+  border-top: 1px solid #ddd
+  border-bottom: 1px solid #ddd
+  border-left: 1px solid #ddd
+  border-right: 1px solid #ddd
+
+
+
 /* -------------------------------- 
  *
  *navbar
@@ -196,12 +206,17 @@ header
   text-align: center
   margin: 0 auto
   display: block
+  margin: 0 auto
+
   z-index: 10000
   margin-top: -1px
   float: initial
 
+
   +MQ (S)
     max-width: 170px
+  +MQ (M)
+    margin: inherit
 
   img
     max-width: 140px
@@ -238,9 +253,12 @@ header
   background-color: white
   left: 20px
   margin-top: -10px
+  display: block
+
 
   +MQ (M)
     width: 100px
+    display: none
 
 
   p
@@ -251,6 +269,33 @@ header
 
     +MQ (M)
       display: block
+.horizontal
+  max-width: 800px
+  position: absolute
+  top: 20px
+  left: 170px
+  display: none
+
+  li
+    display: inline-block
+
+  +MQ (M)
+    display: block
+
+  a
+    text-transform: uppercase
+    color: $color-3
+  a:active
+    text-decoration: none
+  a:hover, a:active
+    text-decoration: none
+    font-weight: bold
+
+  a.active
+    font-weight: bold
+
+
+
 .toggle_menu:focus
   outline: none
 .top_menu ul a
@@ -276,7 +321,51 @@ header
     font-weight: bold
     text-transform: uppercase
 
+/* -------------------------------- 
+ *
+ *secondnav
+ *
+ *--------------------------------
+.second_nav
+  .container
+    padding-top: 5px
+  background-color: $color-1
+  height: 50px
 
+  a
+    display: inline-block
+    padding: 10px
+    padding-bottom: 0px
+    padding-top: 0px
+    padding-left: 0px
+    position: relative
+    top: 2px
+    font-size: 13px
+    color: #dadada
+    text-transform: uppercase
+
+
+
+  a.active
+    color: white
+    font-weight: bold
+  a:hover
+    color: white
+    text-decoration: none
+@media (min-width: 360px)
+  .second_nav
+    a
+      top: 10px
+
+
+
+@media (min-width: 460px)
+  .second_nav
+    a
+      padding: 20px
+      padding-left: 0px
+      font-size: 16px
+      top: -10px
 /* -------------------------------- 
  *
  *cover
@@ -366,7 +455,7 @@ header
  *Tiles
  *
  *--------------------------------
-.offers.col-md-4, .events.col-md-4, .course.col-md-4
+.offers.col-md-4, .eventstile.col-md-4, .course.col-md-4
   margin: 10px
   background-color: white
   padding: 40px
@@ -380,7 +469,13 @@ header
   +MQ (M)
     text-align: left
 
-.offers.col-md-4:hover, .events.col-md-4:hover, .course.col-md-4:hover
+
+  h3
+    color: $color-3 !important
+    margin: initial
+    margin-bottom: 10px
+
+.offers.col-md-4:hover, .eventstile.col-md-4:hover, .course.col-md-4:hover
   -webkit-box-shadow: 14px 14px 15px -10px rgba(0,0,0,0.54)
   -moz-box-shadow: 14px 14px 15px -10px rgba(0,0,0,0.54)
   box-shadow: 14px 14px 15px -10px rgba(0,0,0,0.54)
@@ -395,7 +490,7 @@ header
     margin: 9px
     margin-top: -280px
 
-.events.col-md-4
+.eventstile.col-md-4
   margin: 10px
   margin-top: 0
   +MQ (M)
@@ -427,7 +522,7 @@ header
   background-size: cover
   background-repeat: no-repeat
 
-.events
+.eventstile
   background-image: url("../images/latest.png")
   background-size: cover
   background-repeat: no-repeat
