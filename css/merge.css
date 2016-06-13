@@ -739,9 +739,10 @@ header {
     color: #353942 !important; }
 .reservation.container .col-md-12 {
   text-align: center; }
-.reservation.container button {
+.reservation.container .button {
   margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  padding-top: 15px; }
 
 /* --------------------------------
  *
