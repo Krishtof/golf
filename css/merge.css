@@ -411,7 +411,8 @@ header {
 .btn.cover {
   background-color: white;
   opacity: 0.6;
-  color: #684607; }
+  color: #684607;
+  padding-top: 15px; }
 
 .btn.cover:hover {
   opacity: 1;
