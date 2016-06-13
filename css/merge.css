@@ -759,7 +759,7 @@ header {
  *navbar
  *
  *-------------------------------- */
-body .about .logo_container {
+body .subheader .logo_container {
   max-width: 100px;
   border: none;
   position: relative;
@@ -771,14 +771,14 @@ body .about .logo_container {
   margin-top: -1px;
   float: initial; }
   @media only screen and (min-width: 992px) {
-    body .about .logo_container {
+    body .subheader .logo_container {
       max-width: 100px;
       margin: inherit; } }
-  body .about .logo_container img {
+  body .subheader .logo_container img {
     max-width: 50px;
     margin-top: 20px;
     margin-bottom: 5px; }
-body .about .horizontal {
+body .subheader .horizontal {
   left: 70px; }
 
 /* --------------------------------
@@ -821,7 +821,7 @@ body .overlay {
  *navbar
  *
  *-------------------------------- */
-body .academy .logo_container {
+body .subheader .logo_container {
   max-width: 100px;
   border: none;
   position: relative;
@@ -833,14 +833,14 @@ body .academy .logo_container {
   margin-top: -1px;
   float: initial; }
   @media only screen and (min-width: 992px) {
-    body .academy .logo_container {
+    body .subheader .logo_container {
       max-width: 100px;
       margin: inherit; } }
-  body .academy .logo_container img {
+  body .subheader .logo_container img {
     max-width: 50px;
     margin-top: 20px;
     margin-bottom: 5px; }
-body .academy .horizontal {
+body .subheader .horizontal {
   left: 70px; }
 
 /* --------------------------------
@@ -895,7 +895,7 @@ body .academy .prices {
  *navbar
  *
  *-------------------------------- */
-body .club .logo_container {
+body .subheader .logo_container {
   max-width: 100px;
   border: none;
   position: relative;
@@ -907,14 +907,14 @@ body .club .logo_container {
   margin-top: -1px;
   float: initial; }
   @media only screen and (min-width: 992px) {
-    body .club .logo_container {
+    body .subheader .logo_container {
       max-width: 100px;
       margin: inherit; } }
-  body .club .logo_container img {
+  body .subheader .logo_container img {
     max-width: 50px;
     margin-top: 20px;
     margin-bottom: 5px; }
-body .club .horizontal {
+body .subheader .horizontal {
   left: 70px; }
 
 /* --------------------------------
@@ -1079,7 +1079,7 @@ body .club .accomodations.container {
  *navbar
  *
  *-------------------------------- */
-body .events .logo_container {
+body .subheader .logo_container {
   max-width: 100px;
   border: none;
   position: relative;
@@ -1091,14 +1091,14 @@ body .events .logo_container {
   margin-top: -1px;
   float: initial; }
   @media only screen and (min-width: 992px) {
-    body .events .logo_container {
+    body .subheader .logo_container {
       max-width: 100px;
       margin: inherit; } }
-  body .events .logo_container img {
+  body .subheader .logo_container img {
     max-width: 50px;
     margin-top: 20px;
     margin-bottom: 5px; }
-body .events .horizontal {
+body .subheader .horizontal {
   left: 70px; }
 
 /* --------------------------------
@@ -1167,7 +1167,7 @@ body .events .prices {
  *navbar
  *
  *-------------------------------- */
-body.fees .logo_container {
+body .subheader .logo_container {
   max-width: 100px;
   border: none;
   position: relative;
@@ -1179,14 +1179,14 @@ body.fees .logo_container {
   margin-top: -1px;
   float: initial; }
   @media only screen and (min-width: 992px) {
-    body.fees .logo_container {
+    body .subheader .logo_container {
       max-width: 100px;
       margin: inherit; } }
-  body.fees .logo_container img {
+  body .subheader .logo_container img {
     max-width: 50px;
     margin-top: 20px;
     margin-bottom: 5px; }
-body.fees .horizontal {
+body .subheader .horizontal {
   left: 70px; }
 
 /* --------------------------------
@@ -1237,7 +1237,7 @@ body .fees .prices .btn {
  *navbar
  *
  *-------------------------------- */
-body .tournaments .logo_container {
+body .subheader .logo_container {
   max-width: 100px;
   border: none;
   position: relative;
@@ -1249,14 +1249,14 @@ body .tournaments .logo_container {
   margin-top: -1px;
   float: initial; }
   @media only screen and (min-width: 992px) {
-    body .tournaments .logo_container {
+    body .subheader .logo_container {
       max-width: 100px;
       margin: inherit; } }
-  body .tournaments .logo_container img {
+  body .subheader .logo_container img {
     max-width: 50px;
     margin-top: 20px;
     margin-bottom: 5px; }
-body .tournaments .horizontal {
+body .subheader .horizontal {
   left: 70px; }
 
 /* --------------------------------
@@ -1300,7 +1300,7 @@ body .tournaments {
  *navbar
  *
  *-------------------------------- */
-body .news .logo_container {
+body .subheader .logo_container {
   max-width: 100px;
   border: none;
   position: relative;
@@ -1312,14 +1312,14 @@ body .news .logo_container {
   margin-top: -1px;
   float: initial; }
   @media only screen and (min-width: 992px) {
-    body .news .logo_container {
+    body .subheader .logo_container {
       max-width: 100px;
       margin: inherit; } }
-  body .news .logo_container img {
+  body .subheader .logo_container img {
     max-width: 50px;
     margin-top: 20px;
     margin-bottom: 5px; }
-body .news .horizontal {
+body .subheader .horizontal {
   left: 70px; }
 
 /* --------------------------------
@@ -1380,7 +1380,7 @@ body .news .articles {
  *navbar
  *
  *-------------------------------- */
-body .gallery .logo_container {
+body .subheader .logo_container {
   max-width: 100px;
   border: none;
   position: relative;
@@ -1392,14 +1392,14 @@ body .gallery .logo_container {
   margin-top: -1px;
   float: initial; }
   @media only screen and (min-width: 992px) {
-    body .gallery .logo_container {
+    body .subheader .logo_container {
       max-width: 100px;
       margin: inherit; } }
-  body .gallery .logo_container img {
+  body .subheader .logo_container img {
     max-width: 50px;
     margin-top: 20px;
     margin-bottom: 5px; }
-body .gallery .horizontal {
+body .subheader .horizontal {
   left: 70px; }
 
 /* --------------------------------
