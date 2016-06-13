@@ -759,7 +759,7 @@ header {
  *navbar
  *
  *-------------------------------- */
-body.about .logo_container {
+body .about .logo_container {
   max-width: 100px;
   border: none;
   position: relative;
@@ -771,14 +771,14 @@ body.about .logo_container {
   margin-top: -1px;
   float: initial; }
   @media only screen and (min-width: 992px) {
-    body.about .logo_container {
+    body .about .logo_container {
       max-width: 100px;
       margin: inherit; } }
-  body.about .logo_container img {
+  body .about .logo_container img {
     max-width: 50px;
     margin-top: 20px;
     margin-bottom: 5px; }
-body.about .horizontal {
+body .about .horizontal {
   left: 70px; }
 
 /* --------------------------------
@@ -786,13 +786,13 @@ body.about .horizontal {
  *title
  *
  *-------------------------------- */
-body.about .title {
+body .about .title {
   text-align: center;
   padding: 50px;
   max-width: 800px; }
-  body.about .title h4 {
+  body .about .title h4 {
     padding-bottom: 20px; }
-body.about .titlebackground {
+body .about .titlebackground {
   background-color: #ecebdd;
   background-repeat: no-repeat;
   height: 400px;
@@ -800,18 +800,15 @@ body.about .titlebackground {
   background-position: center;
   padding-left: 0px;
   padding-right: 0px; }
-
-.google-maps {
+body .google-maps {
   position: relative;
   padding-bottom: 75%;
   height: 0;
   overflow: hidden; }
-
-iframe {
+body iframe {
   width: 100% !important;
   height: 400px; }
-
-.overlay {
+body .overlay {
   background: transparent;
   position: relative;
   width: 100%;
@@ -824,7 +821,7 @@ iframe {
  *navbar
  *
  *-------------------------------- */
-body.academy .logo_container {
+body .academy .logo_container {
   max-width: 100px;
   border: none;
   position: relative;
@@ -836,14 +833,14 @@ body.academy .logo_container {
   margin-top: -1px;
   float: initial; }
   @media only screen and (min-width: 992px) {
-    body.academy .logo_container {
+    body .academy .logo_container {
       max-width: 100px;
       margin: inherit; } }
-  body.academy .logo_container img {
+  body .academy .logo_container img {
     max-width: 50px;
     margin-top: 20px;
     margin-bottom: 5px; }
-body.academy .horizontal {
+body .academy .horizontal {
   left: 70px; }
 
 /* --------------------------------
@@ -851,13 +848,13 @@ body.academy .horizontal {
  *title
  *
  *-------------------------------- */
-body.academy .title {
+body .academy .title {
   text-align: center;
   padding: 50px;
   max-width: 800px; }
-  body.academy .title h4 {
+  body .academy .title h4 {
     padding-bottom: 20px; }
-body.academy .titlebackground {
+body .academy .titlebackground {
   background-image: url("../images/coach.jpg");
   background-repeat: no-repeat;
   height: 600px;
@@ -869,28 +866,28 @@ body.academy .titlebackground {
  *coaches
  *
  *-------------------------------- */
-body.academy .container.coaches {
+body .academy .container.coaches {
   text-align: center;
   padding-bottom: 50px; }
-  body.academy .container.coaches img {
+  body .academy .container.coaches img {
     max-width: 200px;
     margin-top: 50px;
     margin-bottom: 10px; }
-  body.academy .container.coaches h3 {
+  body .academy .container.coaches h3 {
     line-height: 0px !important; }
-  body.academy .container.coaches .btn {
+  body .academy .container.coaches .btn {
     margin-top: 20px; }
-body.academy .prices {
+body .academy .prices {
   max-width: 800px;
   text-align: center; }
-  body.academy .prices .table-responsive {
+  body .academy .prices .table-responsive {
     text-align: left;
     margin-top: 40px; }
-    body.academy .prices .table-responsive td:first-child {
+    body .academy .prices .table-responsive td:first-child {
       font-weight: bold; }
-  body.academy .prices .btn {
+  body .academy .prices .btn {
     margin-bottom: 40px; }
-  body.academy .prices h4 {
+  body .academy .prices h4 {
     margin-bottom: 40px; }
 
 /* --------------------------------
@@ -898,7 +895,7 @@ body.academy .prices {
  *navbar
  *
  *-------------------------------- */
-body.club .logo_container {
+body .club .logo_container {
   max-width: 100px;
   border: none;
   position: relative;
@@ -910,14 +907,14 @@ body.club .logo_container {
   margin-top: -1px;
   float: initial; }
   @media only screen and (min-width: 992px) {
-    body.club .logo_container {
+    body .club .logo_container {
       max-width: 100px;
       margin: inherit; } }
-  body.club .logo_container img {
+  body .club .logo_container img {
     max-width: 50px;
     margin-top: 20px;
     margin-bottom: 5px; }
-body.club .horizontal {
+body .club .horizontal {
   left: 70px; }
 
 /* --------------------------------
@@ -925,10 +922,10 @@ body.club .horizontal {
  *title
  *
  *-------------------------------- */
-body.club .title {
+body .club .title {
   text-align: center;
   padding: 50px; }
-body.club .titlebackground {
+body .club .titlebackground {
   background-image: url("../images/mozaik.jpg");
   background-repeat: no-repeat;
   height: 400px;
@@ -939,22 +936,22 @@ body.club .titlebackground {
  *clubhouse
  *
  *-------------------------------- */
-body.club .clubhouse.container {
+body .club .clubhouse.container {
   margin-top: 20px; }
-  body.club .clubhouse.container .col-md-6.img {
+  body .club .clubhouse.container .col-md-6.img {
     background-image: url("../images/club.jpg");
     height: 370px;
     background-size: cover;
     background-repeat: no-repeat; }
-  body.club .clubhouse.container .col-md-6.txt {
+  body .club .clubhouse.container .col-md-6.txt {
     padding: 40px;
     padding-left: 50px;
     padding-right: 50px;
     text-align: center; }
     @media only screen and (min-width: 992px) {
-      body.club .clubhouse.container .col-md-6.txt {
+      body .club .clubhouse.container .col-md-6.txt {
         text-align: left; } }
-    body.club .clubhouse.container .col-md-6.txt p {
+    body .club .clubhouse.container .col-md-6.txt p {
       margin-top: 20px;
       margin-bottom: 40px; }
 
@@ -963,23 +960,23 @@ body.club .clubhouse.container {
  *hotel
  *
  *-------------------------------- */
-body.club .resto.container .col-md-6.img {
+body .club .resto.container .col-md-6.img {
   background-image: url("../images/bar.jpg");
   height: 370px;
   background-size: cover;
   background-repeat: no-repeat; }
   @media only screen and (min-width: 992px) {
-    body.club .resto.container .col-md-6.img {
+    body .club .resto.container .col-md-6.img {
       float: right; } }
-body.club .resto.container .col-md-6.txt {
+body .club .resto.container .col-md-6.txt {
   padding: 40px;
   padding-left: 50px;
   padding-right: 50px;
   text-align: center; }
   @media only screen and (min-width: 992px) {
-    body.club .resto.container .col-md-6.txt {
+    body .club .resto.container .col-md-6.txt {
       text-align: left; } }
-  body.club .resto.container .col-md-6.txt p {
+  body .club .resto.container .col-md-6.txt p {
     margin-top: 20px;
     margin-bottom: 40px; }
 
@@ -988,20 +985,20 @@ body.club .resto.container .col-md-6.txt {
  *beach
  *
  *-------------------------------- */
-body.club .beach.container .col-md-6.img {
+body .club .beach.container .col-md-6.img {
   background-image: url("../images/beach.jpg");
   height: 370px;
   background-size: cover;
   background-repeat: no-repeat; }
-body.club .beach.container .col-md-6.txt {
+body .club .beach.container .col-md-6.txt {
   padding: 40px;
   padding-left: 50px;
   padding-right: 50px;
   text-align: center; }
   @media only screen and (min-width: 992px) {
-    body.club .beach.container .col-md-6.txt {
+    body .club .beach.container .col-md-6.txt {
       text-align: left; } }
-  body.club .beach.container .col-md-6.txt p {
+  body .club .beach.container .col-md-6.txt p {
     margin-top: 20px;
     margin-bottom: 40px; }
 
@@ -1010,70 +1007,70 @@ body.club .beach.container .col-md-6.txt {
  *accomodations
  *
  *-------------------------------- */
-body.club .accomodations.container {
+body .club .accomodations.container {
   padding-left: 0px;
   padding-right: 0px; }
-  body.club .accomodations.container .flickity-page-dots {
+  body .club .accomodations.container .flickity-page-dots {
     bottom: 20px; }
-  body.club .accomodations.container .gallery {
+  body .club .accomodations.container .gallery {
     height: 360px0px;
     margin-bottom: 50px; }
     @media only screen and (min-width: 992px) {
-      body.club .accomodations.container .gallery {
+      body .club .accomodations.container .gallery {
         height: 360px; } }
-  body.club .accomodations.container .btn {
+  body .club .accomodations.container .btn {
     background-color: #232529; }
-  body.club .accomodations.container .title {
+  body .club .accomodations.container .title {
     text-align: center;
     max-width: 800px;
     margin: 0 auto; }
-  body.club .accomodations.container .description {
+  body .club .accomodations.container .description {
     background-color: #353942;
     padding: 50px;
     text-align: center;
     min-height: 360px; }
     @media only screen and (min-width: 992px) {
-      body.club .accomodations.container .description {
+      body .club .accomodations.container .description {
         text-align: left; } }
-    body.club .accomodations.container .description p, body.club .accomodations.container .description h4 {
+    body .club .accomodations.container .description p, body .club .accomodations.container .description h4 {
       color: white !important; }
     @media only screen and (min-width: 992px) {
-      body.club .accomodations.container .description {
+      body .club .accomodations.container .description {
         border-right: 2px solid white; } }
-  body.club .accomodations.container .c1 .hotel_placeholder {
+  body .club .accomodations.container .c1 .hotel_placeholder {
     background-image: url("../images/zenit.jpg");
     height: 500px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
-    body.club .accomodations.container .c1 .hotel_placeholder img {
+    body .club .accomodations.container .c1 .hotel_placeholder img {
       max-width: 130px;
       margin-top: -10px; }
-  body.club .accomodations.container .c2 .hotel_placeholder {
+  body .club .accomodations.container .c2 .hotel_placeholder {
     background-image: url("../images/hotelbalaton.jpg");
     height: 500px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; }
-    body.club .accomodations.container .c2 .hotel_placeholder img {
+    body .club .accomodations.container .c2 .hotel_placeholder img {
       max-width: 130px;
       margin-top: -10px; }
-  body.club .accomodations.container .c3 .hotel_placeholder {
+  body .club .accomodations.container .c3 .hotel_placeholder {
     background-image: url("../images/826_maxi.jpg");
     height: 500px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; }
-    body.club .accomodations.container .c3 .hotel_placeholder img {
+    body .club .accomodations.container .c3 .hotel_placeholder img {
       max-width: 130px;
       margin-top: -10px; }
-  body.club .accomodations.container .c4 .hotel_placeholder {
+  body .club .accomodations.container .c4 .hotel_placeholder {
     background-image: url("../images/188uszoda.jpg");
     height: 500px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; }
-    body.club .accomodations.container .c4 .hotel_placeholder img {
+    body .club .accomodations.container .c4 .hotel_placeholder img {
       max-width: 130px;
       margin-top: -10px; }
 
@@ -1082,7 +1079,7 @@ body.club .accomodations.container {
  *navbar
  *
  *-------------------------------- */
-body.events .logo_container {
+body .events .logo_container {
   max-width: 100px;
   border: none;
   position: relative;
@@ -1094,14 +1091,14 @@ body.events .logo_container {
   margin-top: -1px;
   float: initial; }
   @media only screen and (min-width: 992px) {
-    body.events .logo_container {
+    body .events .logo_container {
       max-width: 100px;
       margin: inherit; } }
-  body.events .logo_container img {
+  body .events .logo_container img {
     max-width: 50px;
     margin-top: 20px;
     margin-bottom: 5px; }
-body.events .horizontal {
+body .events .horizontal {
   left: 70px; }
 
 /* --------------------------------
@@ -1109,25 +1106,25 @@ body.events .horizontal {
  *title
  *
  *-------------------------------- */
-body.events .title {
+body .events .title {
   text-align: center;
   padding: 50px;
   max-width: 800px;
   padding-bottom: 20px; }
-  body.events .title h4 {
+  body .events .title h4 {
     padding-bottom: 20px; }
-body.events .col-md-6, body.events .col-md-12 {
+body .events .col-md-6, body .events .col-md-12 {
   padding: 0px; }
-body.events .tile1 {
+body .events .tile1 {
   background-image: url("../images/neptancest.JPG");
   background-repeat: no-repeat;
   height: 300px;
   background-size: cover;
   background-position: center; }
   @media only screen and (min-width: 767px) {
-    body.events .tile1 {
+    body .events .tile1 {
       height: 600px; } }
-body.events .tile2 {
+body .events .tile2 {
   background-image: url("../images/wedding.jpg");
   background-repeat: no-repeat;
   height: 300px;
@@ -1135,9 +1132,9 @@ body.events .tile2 {
   background-position: center;
   display: none; }
   @media only screen and (min-width: 992px) {
-    body.events .tile2 {
+    body .events .tile2 {
       display: block; } }
-body.events .tile3 {
+body .events .tile3 {
   background-image: url("../images/camp.JPG");
   background-repeat: no-repeat;
   height: 300px;
@@ -1145,24 +1142,24 @@ body.events .tile3 {
   background-position: center;
   display: none; }
   @media only screen and (min-width: 992px) {
-    body.events .tile3 {
+    body .events .tile3 {
       display: block; } }
-body.events .text P {
+body .events .text P {
   text-align: center;
   padding: 40px;
   max-width: 800px;
   margin: 0 auto;
   padding-top: 0px; }
-body.events .kepek {
+body .events .kepek {
   margin-bottom: 50px; }
-body.events .prices {
+body .events .prices {
   max-width: 800px;
   padding-bottom: 50px;
   text-align: center; }
-  body.events .prices .table-responsive {
+  body .events .prices .table-responsive {
     text-align: left;
     margin-top: 40px; }
-    body.events .prices .table-responsive td:first-child {
+    body .events .prices .table-responsive td:first-child {
       font-weight: bold; }
 
 /* --------------------------------
@@ -1197,49 +1194,50 @@ body.fees .horizontal {
  *title
  *
  *-------------------------------- */
-body.fees {
+body .fees {
   text-align: center; }
-  body.fees .title {
+  body .fees .title {
     text-align: center;
     padding: 50px;
     max-width: 800px;
     padding-bottom: 0px; }
-    body.fees .title h4 {
+    body .fees .title h4 {
       padding-bottom: 20px; }
-  body.fees .titlebackground {
+  body .fees .titlebackground {
     background-image: url("../images/coach.jpg");
     background-repeat: no-repeat;
     height: 600px;
     background-size: cover;
     background-position: center; }
-  body.fees .prices {
+  body .fees .prices {
     max-width: 800px;
     text-align: center;
     padding-bottom: 50px; }
-    body.fees .prices .table-responsive {
+    body .fees .prices .table-responsive {
       text-align: left;
       margin-top: 40px; }
-      body.fees .prices .table-responsive td:first-child {
+      body .fees .prices .table-responsive td:first-child {
         font-weight: bold; }
-    body.fees .prices .btn {
+    body .fees .prices .btn {
       margin-bottom: 40px; }
-    body.fees .prices h4 {
+    body .fees .prices h4 {
       margin-bottom: 40px; }
-  body.fees .rent {
+  body .fees .rent {
     padding-bottom: 50px; }
-  body.fees .btn {
-    padding-top: 15px;
-    margin-top: 30px; }
-  body.fees .btn:focus {
+  body .fees .btn:focus {
     background-color: #333;
     color: white; }
+
+body .fees .prices .btn {
+  padding-top: 15px;
+  margin-top: 30px; }
 
 /* --------------------------------
  *
  *navbar
  *
  *-------------------------------- */
-body.tournaments .logo_container {
+body .tournaments .logo_container {
   max-width: 100px;
   border: none;
   position: relative;
@@ -1251,14 +1249,14 @@ body.tournaments .logo_container {
   margin-top: -1px;
   float: initial; }
   @media only screen and (min-width: 992px) {
-    body.tournaments .logo_container {
+    body .tournaments .logo_container {
       max-width: 100px;
       margin: inherit; } }
-  body.tournaments .logo_container img {
+  body .tournaments .logo_container img {
     max-width: 50px;
     margin-top: 20px;
     margin-bottom: 5px; }
-body.tournaments .horizontal {
+body .tournaments .horizontal {
   left: 70px; }
 
 /* --------------------------------
@@ -1266,35 +1264,35 @@ body.tournaments .horizontal {
  *title
  *
  *-------------------------------- */
-body.tournaments {
+body .tournaments {
   text-align: center; }
-  body.tournaments .title {
+  body .tournaments .title {
     text-align: center;
     padding: 50px;
     max-width: 800px;
     padding-bottom: 0px; }
-    body.tournaments .title h4 {
+    body .tournaments .title h4 {
       padding-bottom: 20px; }
-  body.tournaments .titlebackground {
+  body .tournaments .titlebackground {
     background-image: url("../images/coach.jpg");
     background-repeat: no-repeat;
     height: 600px;
     background-size: cover;
     background-position: center; }
-  body.tournaments .prices {
+  body .tournaments .prices {
     max-width: 800px;
     text-align: center;
     padding-bottom: 50px; }
-    body.tournaments .prices .table-responsive {
+    body .tournaments .prices .table-responsive {
       text-align: left;
       margin-top: 40px; }
-      body.tournaments .prices .table-responsive td:first-child {
+      body .tournaments .prices .table-responsive td:first-child {
         font-weight: bold; }
-    body.tournaments .prices .btn {
+    body .tournaments .prices .btn {
       margin-bottom: 40px; }
-    body.tournaments .prices h4 {
+    body .tournaments .prices h4 {
       margin-bottom: 40px; }
-  body.tournaments .rent {
+  body .tournaments .rent {
     padding-bottom: 50px; }
 
 /* --------------------------------
@@ -1302,7 +1300,7 @@ body.tournaments {
  *navbar
  *
  *-------------------------------- */
-body.news .logo_container {
+body .news .logo_container {
   max-width: 100px;
   border: none;
   position: relative;
@@ -1314,14 +1312,14 @@ body.news .logo_container {
   margin-top: -1px;
   float: initial; }
   @media only screen and (min-width: 992px) {
-    body.news .logo_container {
+    body .news .logo_container {
       max-width: 100px;
       margin: inherit; } }
-  body.news .logo_container img {
+  body .news .logo_container img {
     max-width: 50px;
     margin-top: 20px;
     margin-bottom: 5px; }
-body.news .horizontal {
+body .news .horizontal {
   left: 70px; }
 
 /* --------------------------------
@@ -1329,51 +1327,51 @@ body.news .horizontal {
  *first blog post
  *
  *-------------------------------- */
-body.news .cover {
+body .news .cover {
   background-image: url(../images/SAM_0318.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
   background-position: center; }
   @media only screen and (min-width: 767px) {
-    body.news .cover {
+    body .news .cover {
       height: 350px; } }
-body.news .title {
+body .news .title {
   margin: 0 auto;
   padding-bottom: 40px; }
-  body.news .title h3 {
+  body .news .title h3 {
     margin-bottom: 15px; }
   @media only screen and (min-width: 992px) {
-    body.news .title {
+    body .news .title {
       padding-left: 0px;
       padding-right: 0px; } }
-  body.news .title .sub {
+  body .news .title .sub {
     max-width: 800px;
     text-align: left;
     margin: 0 auto; }
-  body.news .title .btn {
+  body .news .title .btn {
     margin-top: 20px;
     margin-bottom: 40px; }
-  body.news .title h3 {
+  body .news .title h3 {
     margin-left: 0px; }
-body.news .sec {
+body .news .sec {
   background-color: #f5f5f5; }
-body.news .img1 {
+body .news .img1 {
   height: 200px;
   width: 100%;
   background-image: url("../images/scene.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
-body.news .img2 {
+body .news .img2 {
   height: 200px;
   width: 100%;
   background-image: url("../images/scene.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
-body.news .articles {
+body .news .articles {
   padding-top: 40px;
   padding-bottom: 40px; }
-  body.news .articles a {
+  body .news .articles a {
     text-decoration: none;
     color: #353942; }
 
@@ -1382,7 +1380,7 @@ body.news .articles {
  *navbar
  *
  *-------------------------------- */
-body.gallery .logo_container {
+body .gallery .logo_container {
   max-width: 100px;
   border: none;
   position: relative;
@@ -1394,14 +1392,14 @@ body.gallery .logo_container {
   margin-top: -1px;
   float: initial; }
   @media only screen and (min-width: 992px) {
-    body.gallery .logo_container {
+    body .gallery .logo_container {
       max-width: 100px;
       margin: inherit; } }
-  body.gallery .logo_container img {
+  body .gallery .logo_container img {
     max-width: 50px;
     margin-top: 20px;
     margin-bottom: 5px; }
-body.gallery .horizontal {
+body .gallery .horizontal {
   left: 70px; }
 
 /* --------------------------------
@@ -1409,33 +1407,33 @@ body.gallery .horizontal {
  *title
  *
  *-------------------------------- */
-body.gallery {
+body .gallery {
   text-align: center; }
-  body.gallery .title {
+  body .gallery .title {
     text-align: center;
     padding: 50px;
     max-width: 800px;
     padding-bottom: 0px; }
-    body.gallery .title h4 {
+    body .gallery .title h4 {
       padding-bottom: 20px; }
-  body.gallery .titlebackground {
+  body .gallery .titlebackground {
     background-image: url("../images/coach.jpg");
     background-repeat: no-repeat;
     height: 600px;
     background-size: cover;
     background-position: center; }
-  body.gallery .prices {
+  body .gallery .prices {
     max-width: 800px;
     text-align: center;
     padding-bottom: 50px; }
-    body.gallery .prices .table-responsive {
+    body .gallery .prices .table-responsive {
       text-align: left;
       margin-top: 40px; }
-      body.gallery .prices .table-responsive td:first-child {
+      body .gallery .prices .table-responsive td:first-child {
         font-weight: bold; }
-    body.gallery .prices .btn {
+    body .gallery .prices .btn {
       margin-bottom: 40px; }
-    body.gallery .prices h4 {
+    body .gallery .prices h4 {
       margin-bottom: 40px; }
-  body.gallery .rent {
+  body .gallery .rent {
     padding-bottom: 50px; }
