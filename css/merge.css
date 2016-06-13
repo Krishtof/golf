@@ -547,12 +547,14 @@ header {
  *
  *-------------------------------- */
 .map.container .col-md-6.img {
-  background-image: url("../images/junior.jpg");
+  background-image: url("../images/Imperial-teljes.png");
   height: 370px;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   padding-left: 0px;
-  padding-right: 0px; }
+  padding-right: 0px;
+  margin-bottom: 60px; }
   .map.container .col-md-6.img .btn {
     height: 100%;
     width: 100%;
@@ -583,10 +585,28 @@ header {
   border: none !important; }
 
 .modal-content {
-  background-image: url("/images/junior.jpg");
-  background-size: cover;
+  background-image: url("/images/Imperial-teljes_vert.png");
+  background-size: contain;
+  background-position: center;
+  background-color: #f5f5f5;
   background-repeat: no-repeat;
-  min-height: 400px; }
+  min-height: 580px; }
+  @media only screen and (min-width: 767px) {
+    .modal-content {
+      min-height: 620px; } }
+  @media only screen and (min-width: 992px) {
+    .modal-content {
+      min-height: 530px;
+      background-image: url("/images/Imperial-teljes.png"); } }
+
+.modal.in .modal-dialog {
+  min-width: 100%; }
+  @media only screen and (min-width: 767px) {
+    .modal.in .modal-dialog {
+      min-width: 600px; } }
+  @media only screen and (min-width: 992px) {
+    .modal.in .modal-dialog {
+      min-width: 800px; } }
 
 /* --------------------------------
  *
@@ -1205,6 +1225,12 @@ body.fees {
       margin-bottom: 40px; }
   body.fees .rent {
     padding-bottom: 50px; }
+  body.fees .btn {
+    padding-top: 15px;
+    margin-top: 30px; }
+  body.fees .btn:focus {
+    background-color: #333;
+    color: white; }
 
 /* --------------------------------
  *
