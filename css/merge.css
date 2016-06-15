@@ -1042,7 +1042,8 @@ body .club .accomodations.container {
     height: 500px;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    text-align: left; }
     body .club .accomodations.container .c1 .hotel_placeholder img {
       max-width: 130px;
       margin-top: -10px; }
@@ -1051,7 +1052,8 @@ body .club .accomodations.container {
     height: 500px;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    text-align: left; }
     body .club .accomodations.container .c2 .hotel_placeholder img {
       max-width: 130px;
       margin-top: -10px; }
@@ -1060,7 +1062,8 @@ body .club .accomodations.container {
     height: 500px;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    text-align: left; }
     body .club .accomodations.container .c3 .hotel_placeholder img {
       max-width: 130px;
       margin-top: -10px; }
@@ -1069,7 +1072,8 @@ body .club .accomodations.container {
     height: 500px;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    text-align: left; }
     body .club .accomodations.container .c4 .hotel_placeholder img {
       max-width: 130px;
       margin-top: -10px; }
