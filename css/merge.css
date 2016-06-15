@@ -1236,6 +1236,9 @@ body .fees .prices .btn {
   padding-top: 15px;
   margin-top: 30px; }
 
+.pr {
+  text-align: right; }
+
 /* --------------------------------
  *
  *navbar
