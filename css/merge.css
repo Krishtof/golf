@@ -792,6 +792,13 @@ body .about .title {
   max-width: 800px; }
   body .about .title h4 {
     padding-bottom: 20px; }
+  body .about .title .form {
+    margin-top: 40px; }
+  body .about .title .btn {
+    margin-top: 20px; }
+  body .about .title .form-group {
+    max-width: 350px;
+    margin: 0 auto; }
 body .about .titlebackground {
   background-color: #ecebdd;
   background-repeat: no-repeat;

@@ -87,7 +87,18 @@ html
 				P(style="font-weight: bold") Nyáron:
 				P Március 1-től november 15-ig, minden nap 8:30 és 19:00 között.
 				P(style="font-weight: bold") Télen:
-				p November 16-tól február 28-ig, minden pénteken és szombaton 10:00 és 17:00 között. 
+				p November 16-tól február 28-ig, minden pénteken és szombaton 10:00 és 17:00 között.
+				h3.form Hagyjon üzenetet!
+
+				form(role='form')
+					.form-group
+						label(for='email') Email address:
+						input#email.form-control(type='email')
+					.form-group
+						label(for='comment') Message
+						input.form-control(type='text', cols='40', rows='5', style=' height:150px;', name='Text1', value='')
+
+					button.btn.btn-default(type='submit') Submit
 			// coaches
 			// Footer
 			include ./footer
