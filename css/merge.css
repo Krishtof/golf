@@ -1362,7 +1362,8 @@ body .news .title {
   body .news .title .sub {
     max-width: 800px;
     text-align: left;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-top: 2vw; }
   body .news .title .btn {
     margin-top: 20px;
     margin-bottom: 40px; }
