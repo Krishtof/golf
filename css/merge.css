@@ -429,6 +429,7 @@ header {
 .offers.col-md-4, .eventstile.col-md-4, .course.col-md-4 {
   margin: 10px;
   background-color: white;
+  min-height: 340px;
   padding: 40px;
   -webkit-box-shadow: 15px 15px 25px -8px rgba(0, 0, 0, 0.26);
   -moz-box-shadow: 15px 15px 25px -8px rgba(0, 0, 0, 0.26);
@@ -1243,7 +1244,7 @@ body .fees .prices .btn {
   padding-top: 15px;
   margin-top: 30px; }
 
-.pr {
+.tr td:last-child {
   text-align: right; }
 
 /* --------------------------------
@@ -1389,6 +1390,8 @@ body .news .articles {
   body .news .articles a {
     text-decoration: none;
     color: #353942; }
+body .news .col-md-6 {
+  padding-bottom: 50px; }
 
 /* --------------------------------
  *
