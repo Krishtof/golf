@@ -280,7 +280,9 @@ header {
     margin-bottom: 0px;
     font-weight: bold !important;
     margin-top: -5px;
-    text-align: center; }
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px; }
   #weather .currently {
     display: inline-block;
     margin-left: 10px;
@@ -437,9 +439,6 @@ header {
   transition: background-image 0.3s ease;
   transition: box-shadow 0.3s ease;
   text-align: center; }
-  @media only screen and (min-width: 992px) {
-    .offers.col-md-4, .eventstile.col-md-4, .course.col-md-4 {
-      text-align: left; } }
   .offers.col-md-4 h3, .eventstile.col-md-4 h3, .course.col-md-4 h3 {
     color: #353942 !important;
     margin: initial;
@@ -555,8 +554,10 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   padding-left: 0px;
-  padding-right: 0px;
-  margin-bottom: 60px; }
+  padding-right: 0px; }
+  @media only screen and (min-width: 992px) {
+    .map.container .col-md-6.img {
+      margin-bottom: 60px; } }
   .map.container .col-md-6.img .btn {
     height: 100%;
     width: 100%;

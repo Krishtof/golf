@@ -315,6 +315,8 @@ header
     font-weight: bold !important
     margin-top: -5px
     text-align: center
+    margin-left: 2px
+    margin-right: 2px
   .currently
     display: inline-block
     margin-left: 10px
@@ -479,8 +481,7 @@ header
   transition: box-shadow 0.3s ease
   text-align: center
 
-  +MQ (M)
-    text-align: left
+
 
 
   h3
@@ -609,7 +610,9 @@ header
     background-repeat: no-repeat
     padding-left: 0px
     padding-right: 0px
-    margin-bottom: 60px
+
+    +MQ (M)
+      margin-bottom: 60px
 
     .btn
       height: 100%
@@ -826,3 +829,5 @@ header
    
   .heart, a, .copyright
     color: white
+
+
