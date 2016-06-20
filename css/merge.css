@@ -53,7 +53,7 @@ h4 {
   line-height: 23px !important;
   text-transform: uppercase; }
 
-p, td {
+p, td, li, ul {
   font-family: "Playfair Display", serif !important;
   font-size: 15px !important;
   line-height: 23px !important;
@@ -1174,6 +1174,108 @@ body .events .prices {
     margin-top: 40px; }
     body .events .prices .table-responsive td:first-child {
       font-weight: bold; }
+
+/* --------------------------------
+ *
+ *csapat
+ *
+ *-------------------------------- */
+.events .csapat.container .col-md-6.img {
+  background-image: url("../images/csapat.JPG");
+  height: 370px;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  @media only screen and (min-width: 992px) {
+    .events .csapat.container .col-md-6.img {
+      float: right; } }
+.events .csapat.container .col-md-6.txt {
+  padding: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center; }
+  @media only screen and (min-width: 992px) {
+    .events .csapat.container .col-md-6.txt {
+      text-align: left; } }
+  .events .csapat.container .col-md-6.txt p {
+    margin-top: 20px;
+    margin-bottom: 40px; }
+
+/* --------------------------------
+ *
+ *eskuvo
+ *
+ *-------------------------------- */
+.eskuvo.container .col-md-6.img {
+  background-image: url("../images/wedding.jpg");
+  height: 370px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 0px;
+  padding-right: 0px; }
+  .eskuvo.container .col-md-6.img .btn {
+    height: 100%;
+    width: 100%;
+    background-color: transparent; }
+.eskuvo.container .col-md-6.txt {
+  padding: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center; }
+  @media only screen and (min-width: 992px) {
+    .eskuvo.container .col-md-6.txt {
+      text-align: left; } }
+  .eskuvo.container .col-md-6.txt p {
+    margin-top: 20px;
+    margin-bottom: 40px; }
+
+/* --------------------------------
+ *
+ *csalad
+ *
+ *-------------------------------- */
+.events .csalad.container .col-md-6.img {
+  background-image: url("../images/csalad copy.JPG");
+  height: 370px;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  @media only screen and (min-width: 992px) {
+    .events .csalad.container .col-md-6.img {
+      float: right; } }
+.events .csalad.container .col-md-6.txt {
+  padding: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center; }
+  @media only screen and (min-width: 992px) {
+    .events .csalad.container .col-md-6.txt {
+      text-align: left; } }
+  .events .csalad.container .col-md-6.txt p {
+    margin-top: 20px;
+    margin-bottom: 40px; }
+
+/* --------------------------------
+ *
+ *junior
+ *
+ *-------------------------------- */
+.events .junior.container .col-md-6.img {
+  background-image: url("../images/gyerektabor.JPG");
+  height: 370px;
+  background-size: cover;
+  background-repeat: no-repeat; }
+.events .junior.container .col-md-6.txt {
+  padding: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center; }
+  @media only screen and (min-width: 992px) {
+    .events .junior.container .col-md-6.txt {
+      text-align: left; } }
+  .events .junior.container .col-md-6.txt p {
+    margin-top: 20px; }
+  .events .junior.container .col-md-6.txt ul {
+    padding-left: 0px; }
 
 /* --------------------------------
  *

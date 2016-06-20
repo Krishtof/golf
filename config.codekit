@@ -3358,6 +3358,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/csalad copy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.5849e+06,
+		"inputAbbreviatedPath": "\/images\/csalad copy.jpg",
+		"outputAbbreviatedPath": "\/images\/csalad copy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/csalad.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.5849e+06,
+		"inputAbbreviatedPath": "\/images\/csalad.jpg",
+		"outputAbbreviatedPath": "\/images\/csalad.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/csapat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71255,
+		"inputAbbreviatedPath": "\/images\/csapat.jpg",
+		"outputAbbreviatedPath": "\/images\/csapat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/decsi.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4025,6 +4058,17 @@
 		"initialSize": 225857,
 		"inputAbbreviatedPath": "\/images\/opt\/hotelbalaton.jpg",
 		"outputAbbreviatedPath": "\/images\/opt\/hotelbalaton.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/opt\/IMG_1878.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/opt\/IMG_1878.jpg",
+		"outputAbbreviatedPath": "\/images\/opt\/IMG_1878.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
