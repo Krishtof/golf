@@ -291,6 +291,15 @@ header {
     color: #675C5C;
     text-transform: uppercase; }
 
+#weather:before {
+  content: "";
+  height: 1px;
+  width: 66px;
+  background-color: #cecece;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 3px; }
+
 /* --------------------------------
  *
  *secondnav
@@ -343,11 +352,13 @@ header {
     color: black !important; }
   .cover .col-md-12 h1 {
     color: white !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 35 px !important;
     margin-top: 0px !important; }
   .cover .col-md-12 h3 {
     color: white !important;
     margin-bottom: 40px; }
+  .cover .col-md-12 .textholder {
+    padding-top: 185px; }
 
 .gallery {
   height: 800px; }
@@ -478,17 +489,17 @@ header {
     width: 31.33333%;
     text-align: center; } }
 .offers {
-  background-image: url("../images/special.png");
+  opacity: 0.9;
   background-size: cover;
   background-repeat: no-repeat; }
 
 .course {
-  background-image: url("../images/course.png");
+  opacity: 0.9;
   background-size: cover;
   background-repeat: no-repeat; }
 
 .eventstile {
-  background-image: url("../images/latest.png");
+  opacity: 0.9;
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -876,11 +887,16 @@ body .academy .titlebackground {
  *-------------------------------- */
 body .academy .container.coaches {
   text-align: center;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  background-color: #f5f5f5; }
   body .academy .container.coaches img {
     max-width: 200px;
     margin-top: 50px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    border-radius: 100px; }
+  body .academy .container.coaches p {
+    max-width: 800px;
+    margin: 0 auto; }
   body .academy .container.coaches h3 {
     line-height: 0px !important; }
   body .academy .container.coaches .btn {
