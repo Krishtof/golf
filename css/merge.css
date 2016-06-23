@@ -271,7 +271,8 @@ header {
   font-size: 2.14286rem; }
 
 #weather {
-  margin-bottom: 10px; }
+  padding-bottom: 10px;
+  background-color: whitesmoke; }
   #weather h2 {
     display: inline-block;
     font-family: "Playfair Display", serif;
@@ -290,15 +291,6 @@ header {
     font-size: 12px;
     color: #675C5C;
     text-transform: uppercase; }
-
-#weather:before {
-  content: "";
-  height: 1px;
-  width: 66px;
-  background-color: #cecece;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 3px; }
 
 /* --------------------------------
  *
