@@ -1,0 +1,167 @@
+doctype html
+html
+	include ./head
+	body
+		#signupModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel')
+			.modal-dialog(role='document')
+				.modal-content
+					.modal-header
+
+						button.close(type='button', data-dismiss='modal', aria-label='Close')
+							span(aria-hidden='true') ×
+						h4 Jelentkezés tanfolyamra
+						p 08. 04-05-06 - 3x3 óra
+					.modal-body
+						form
+							.form-group
+								label.form-control-label(for='recipient-name') Név:
+								input#recipient-name.form-control(type='text')
+							.form-group
+								label.form-control-label(for='recipient-name') Email:
+								input#recipient-name.form-control(type='text')
+							.form-group
+								label.form-control-label(for='recipient-name') Telefonszám:
+								input#recipient-name.form-control(type='text')
+							.form-group
+								label.form-control-label(for='recipient-name') Életkor:
+								input#recipient-name.form-control(type='text')
+							.form-group
+								.dropdown
+									button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true') Nem
+										span.caret
+									ul.dropdown-menu(aria-labelledby='dropdownMenu1')
+										li
+											a(href='#') Férfi
+										li
+											a(href='#') Nő
+					.modal-footer
+						button.btn.btn-primary(type='button') Jelentkezem
+		.subheader
+			header
+				.container.top-container
+					.row
+						.col-md-12
+							.dropdown
+								button#dropdownMenu1.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true') Eng
+									span.caret
+								ul.dropdown-menu(aria-labelledby='dropdownMenu1')
+									li
+										a(href='#') Engligh
+									li
+										a(href='#') Hungarian
+									li
+										a(href='#') German					
+							// Logo
+							a.logo_container(href="index.html")
+								img(src="images/logo-hor.png")
+							.horizontal
+								ul
+									li
+										a.active(href='club.html') A Klub
+									li
+										a(href='fees.html') Áraink
+									li
+										a(href='tournaments.html') Tournaments
+									li
+										a(href='gallery.html') Galéria
+									li 
+										a(href='news.html') Hírek
+									li
+										a(href='about.html') Rólunk
+							// end Logo
+
+							// Menu
+							button.toggle_menu
+								p MENU
+								span.sandwich
+									span.sw-topper
+									span.sw-bottom
+									span.sw-footer
+
+
+							nav.top_menu
+								ul
+									li
+										a(href='club.html') A Klub
+									li
+										a(href='fees.html') Áraink
+									li
+										a(href='tournaments.html') Tournaments
+									li
+										a(href='gallery.html') Galéria
+									li 
+										a(href='news.html') Hírek
+									li
+										a(href='about.html') Rólunk
+							// end Menu
+			// end Header
+		.container-fluid.second_nav
+			.container
+				a.active(href='club.html') Klub-élet	
+					a(href='http://birdiebook.golfly.hu/8/24/en', target='_blank') Golfpálya
+					a(href='academy.html') Akadémia
+					a(href='events.html') Események
+					a(href='events.html') Jelentkezz
+
+			// end Header
+		.signup
+			// title
+			.container.title
+				h4 A golf mindenkié!
+			.elmeny.container
+				.row
+					.col-md-6.img
+					.col-md-6.txt
+						h4 Élmény
+						p A golf több mint sport. Olyan élményt kínál, mely  máshoz nem hasonlítható. A különleges helyszín teszi páratlanná , mely a Balaton lenyűgöző panorámája, a gyönyörű zöld  felületek,  a pályát körülvevő természetes élővilág, a frissen vágott fű illata révén rabul ejti a golfozót. Amikor golfozunk nem csak sportolunk, hanem úgy érezhetjük, mintha egy szép kiránduláson vennénk rész. 
+
+			.elerheto.container
+				.row
+					.col-md-6.img
+					.col-md-6.txt
+						h4 Elérhető
+						p Sok tévhit kering a golfról, de ennek ellenére mindeki számára elérhető. Éves tagsági vásárlásával korlátlanul igénybe vehetők a klub szolgáltatásai, így csak Önön múlik, hogy él e a lehetőséggel, és kiaknázza mind azt amit a golf nyújthat Önnek. Célunk, hogy megtanítsuk Önt golfozni, és ehhez nagyon kedvezményes ajánlatot kínálunk.
+ 
+			.ajanlat.container
+				.row
+					.col-md-6.img
+					.col-md-6.txt
+						h4 Ajánlat
+						p Csoportos oktatás keretében már három hétvége alatt eljuthat olyan szintre, hogy pályaalkalmassági vizsgát tehet, és ezt követően rendszeresen fejlesztheti képességeit már nem csak a gyakorlópályákon, hanem a versenypályán is. Hétvégenként vagy hétköznap 3-3 órás tanfolyamokon hatékonyan adjuk át azt a tudást, mely a gyakorlatban elvezet a golf élményeinek megtapasztalásához. 
+
+			.tanfolyam.container
+				h4 Tanfolyamok
+				p A megfelelő tanfolyam időpntjára jelentkezhet, kérjük jelölje meg a megfelelőt.
+
+				.dropdown
+					button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true') Válasszon tanfolyamot
+						span.caret
+					ul.dropdown-menu(aria-labelledby='dropdownMenu1')
+						li
+							a(href='#') 07. 22-23-24 - 3x3 óra
+						li
+							a(href='#') 07. 27-08.03-08.10 - 3x3 óra
+						li				
+							a(href='#') 08. 04-05-06 - 3x3 óra
+						li					
+							a(href='#') 08. 19-20-21 - 3x3 óra
+				button.btn.btn-primary(type='button', data-toggle='modal', data-target='#signupModal', data-whatever='@mdo') Jelentkezés
+
+			// coaches
+			// Footer
+			include ./footer
+		// end Footer
+		// some scripts for IE
+		//if lt IE 9
+			script(src='lib/es5-shim/js/es5-shim.min.js')
+			script(src='lib/html5shiv/js/html5shiv.min.js')
+			script(src='lib/html5shiv/js/html5shiv-printshiv.min.js')
+
+		// Trigger for scroll
+		script(src='lib/waypoints/js/waypoints.min.js')
+
+
+		// Some main scripts
+		script(src='js/min/animate-css.min.js')
+		script(src='js/min/common.min.js')
+		
