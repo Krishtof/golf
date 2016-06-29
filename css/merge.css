@@ -1571,7 +1571,7 @@ body .signup .title {
  *
  *-------------------------------- */
 .signup .elmeny.container .col-md-6.img {
-  background-image: url("../images/csapat.jpg");
+  background-image: url("../images/8247.jpg");
   height: 370px;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -1596,7 +1596,7 @@ body .signup .title {
  *
  *-------------------------------- */
 .signup .elerheto.container .col-md-6.img {
-  background-image: url("../images/wedding.jpg");
+  background-image: url("../images/7747.jpg");
   height: 370px;
   background-size: cover;
   background-position: center;
@@ -1625,7 +1625,7 @@ body .signup .title {
  *
  *-------------------------------- */
 .signup .ajanlat.container .col-md-6.img {
-  background-image: url("../images/csalad copy.jpg");
+  background-image: url("../images/2595.jpg");
   height: 370px;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -1680,3 +1680,126 @@ body .signup .title {
   @media only screen and (min-width: 992px) {
     #signupModal .modal-footer {
       text-align: right; } }
+
+/* --------------------------------
+ *
+ *title
+ *
+ *-------------------------------- */
+body .foreign .title {
+  text-align: center;
+  padding: 50px;
+  max-width: 800px;
+  padding-bottom: 20px; }
+  body .foreign .title h4 {
+    padding-bottom: 20px; }
+
+/* --------------------------------
+ *
+ *golf
+ *
+ *-------------------------------- */
+.foreign .golf.container .col-md-6.img {
+  background-image: url("../images/2595.jpg");
+  height: 370px;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  @media only screen and (min-width: 992px) {
+    .foreign .golf.container .col-md-6.img {
+      float: right; } }
+.foreign .golf.container .col-md-6.txt {
+  padding: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center; }
+  @media only screen and (min-width: 992px) {
+    .foreign .golf.container .col-md-6.txt {
+      text-align: left; } }
+  .foreign .golf.container .col-md-6.txt p {
+    margin-top: 20px;
+    margin-bottom: 40px; }
+
+/* --------------------------------
+ *
+ *vitorlazas
+ *
+ *-------------------------------- */
+.foreign .vitorlazas.container .col-md-6.img {
+  background-image: url("../images/vitorla.jpg");
+  height: 370px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 0px;
+  padding-right: 0px; }
+  .foreign .vitorlazas.container .col-md-6.img .btn {
+    height: 100%;
+    width: 100%;
+    background-color: transparent; }
+.foreign .vitorlazas.container .col-md-6.txt {
+  padding: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center; }
+  @media only screen and (min-width: 992px) {
+    .foreign .vitorlazas.container .col-md-6.txt {
+      text-align: left; } }
+  .foreign .vitorlazas.container .col-md-6.txt p {
+    margin-top: 20px;
+    margin-bottom: 40px; }
+
+/* --------------------------------
+ *
+ *bor
+ *
+ *-------------------------------- */
+.foreign .bor.container .col-md-6.img {
+  background-image: url("../images/bor.jpg");
+  height: 370px;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  @media only screen and (min-width: 992px) {
+    .foreign .bor.container .col-md-6.img {
+      float: right; } }
+.foreign .bor.container .col-md-6.txt {
+  padding: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center; }
+  @media only screen and (min-width: 992px) {
+    .foreign .bor.container .col-md-6.txt {
+      text-align: left; } }
+  .foreign .bor.container .col-md-6.txt p {
+    margin-top: 20px;
+    margin-bottom: 40px; }
+
+/* --------------------------------
+ *
+ *szallas
+ *
+ *-------------------------------- */
+.foreign .szallas.container {
+  margin-bottom: 40px; }
+  .foreign .szallas.container .col-md-6.img {
+    background-image: url("../images/hotelbalaton.jpg");
+    height: 370px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 0px;
+    padding-right: 0px; }
+    .foreign .szallas.container .col-md-6.img .btn {
+      height: 100%;
+      width: 100%;
+      background-color: transparent; }
+  .foreign .szallas.container .col-md-6.txt {
+    padding: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center; }
+    @media only screen and (min-width: 992px) {
+      .foreign .szallas.container .col-md-6.txt {
+        text-align: left; } }
+    .foreign .szallas.container .col-md-6.txt p {
+      margin-top: 20px;
+      margin-bottom: 40px; }

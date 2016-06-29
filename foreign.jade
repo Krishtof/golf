@@ -1,0 +1,158 @@
+doctype html
+html
+	include ./head
+	body
+		#signupModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel')
+			.modal-dialog(role='document')
+				.modal-content
+					.modal-header
+
+						button.close(type='button', data-dismiss='modal', aria-label='Close')
+							span(aria-hidden='true') ×
+						h4 Jelentkezés tanfolyamra
+						p 08. 04-05-06 - 3x3 óra
+					.modal-body
+						form
+							.form-group
+								label.form-control-label(for='recipient-name') Név:
+								input#recipient-name.form-control(type='text')
+							.form-group
+								label.form-control-label(for='recipient-name') Email:
+								input#recipient-name.form-control(type='text')
+							.form-group
+								label.form-control-label(for='recipient-name') Telefonszám:
+								input#recipient-name.form-control(type='text')
+							.form-group
+								label.form-control-label(for='recipient-name') Életkor:
+								input#recipient-name.form-control(type='text')
+							.form-group
+								.dropdown
+									button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true') Nem
+										span.caret
+									ul.dropdown-menu(aria-labelledby='dropdownMenu1')
+										li
+											a(href='#') Férfi
+										li
+											a(href='#') Nő
+					.modal-footer
+						button.btn.btn-primary(type='button') Jelentkezem
+		.subheader
+			header
+				.container.top-container
+					.row
+						.col-md-12
+							.dropdown
+								button#dropdownMenu1.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true') Eng
+									span.caret
+								ul.dropdown-menu(aria-labelledby='dropdownMenu1')
+									li
+										a(href='#') Engligh
+									li
+										a(href='#') Hungarian
+									li
+										a(href='#') German					
+							// Logo
+							a.logo_container(href="index.html")
+								img(src="images/logo-hor.png")
+							.horizontal
+								ul
+									li
+										a.active(href='club.html') A Klub
+									li
+										a(href='fees.html') Áraink
+									li
+										a(href='tournaments.html') Tournaments
+									li
+										a(href='gallery.html') Galéria
+									li 
+										a(href='news.html') Hírek
+									li
+										a(href='about.html') Rólunk
+							// end Logo
+
+							// Menu
+							button.toggle_menu
+								p MENU
+								span.sandwich
+									span.sw-topper
+									span.sw-bottom
+									span.sw-footer
+
+
+							nav.top_menu
+								ul
+									li
+										a(href='club.html') A Klub
+									li
+										a(href='fees.html') Áraink
+									li
+										a(href='tournaments.html') Tournaments
+									li
+										a(href='gallery.html') Galéria
+									li 
+										a(href='news.html') Hírek
+									li
+										a(href='about.html') Rólunk
+							// end Menu
+			// end Header
+		.container-fluid.second_nav
+			.container
+				a.active(href='club.html') Klub-élet	
+					a(href='http://birdiebook.golfly.hu/8/24/en', target='_blank') Golfpálya
+					a(href='academy.html') Akadémia
+					a(href='events.html') Események
+					a(href='events.html') Jelentkezz
+
+			// end Header
+		.foreign
+			// title
+			.container.title
+				h4 Különleges ajánlat külföldi golfozóknak
+			.golf.container
+				.row
+					.col-md-6.img
+					.col-md-6.txt
+						h4 Golf
+						p A Golfclub Imperial Balaton különleges adottságokkal rendelkezik. A Balaton parton elterülő pálya különleges panorámával rendelkezik a tóra és  borairól híres Badacsonyra. A pályán szétszort bunkerek és furfangos greenek mellett a balaton természetes növényvilága teszi felejthetetlenné a játékot, az itt eltöltött időt pedig a német gondoskodás. 
+
+			.vitorlazas.container
+				.row
+					.col-md-6.img
+					.col-md-6.txt
+						h4 Vitorlázás
+						p Egy kellemes golfozást követően igazi felüdülést jelent a tó parton elfogyasztott  magyaros bográcsban főtt ebéd. A golf és az ebéd okozta fáradtság kipihenésére nem képzelhetünk el látványosabb megoldást, mint átvitorlázni Badacsonyba, miközben gyönyörködhetünk a Balaton és Badacsony hegyeinek páratlan szépségében. 
+
+ 
+			.bor.container
+				.row
+					.col-md-6.img
+					.col-md-6.txt
+						h4 Badacsonyi bortúra
+						p A vulknikus hegy különleges klímája révén csodálatos borok szülőföldje. Borainak különleges zamatát több híres pincészet vigyázza. Felkaptatva a hegy meredek lejtőin meglátogatjuk a pincészeteket és megkóstoljuk borait. A hegyről letekintve a Balaton széles víztükrére megértjük, miért is utánozhatatlan ennek a helynek szépsége, mely oly sok költőt és festőt ihletett már meg.  
+
+			.szallas.container
+				.row
+					.col-md-6.img
+					.col-md-6.txt
+						h4 Szállás
+						p A kényelmes elhelyezésről a golfpályához közeli hotelek gondoskodnak. Az alábbi linkre kattintva választhat hoteleink kínálatából, ahol vendégeink kedvezménnyel vehetik igénybe a hotelszolgáltatásokat. Programajánlatunkban gondoskodunk arról, hogy vendégeink hoteltől hotelig történő szállítással vehessenek részt, így gondtalanul élvezhesség az egésznapos programot.
+						button.btn.btn-default(type='button') Tovább a hotelekhez
+
+			// coaches
+			// Footer
+			include ./footer
+		// end Footer
+		// some scripts for IE
+		//if lt IE 9
+			script(src='lib/es5-shim/js/es5-shim.min.js')
+			script(src='lib/html5shiv/js/html5shiv.min.js')
+			script(src='lib/html5shiv/js/html5shiv-printshiv.min.js')
+
+		// Trigger for scroll
+		script(src='lib/waypoints/js/waypoints.min.js')
+
+
+		// Some main scripts
+		script(src='js/min/animate-css.min.js')
+		script(src='js/min/common.min.js')
+		

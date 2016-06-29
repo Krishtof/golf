@@ -2994,6 +2994,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/foreign.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/foreign.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/gallery.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -3095,6 +3104,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/footer.jade",
 		"outputAbbreviatedPath": "\/footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/foreign.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/foreign.jade",
+		"outputAbbreviatedPath": "\/foreign.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -3229,6 +3249,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/2541 - Kopie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.60727e+07,
+		"inputAbbreviatedPath": "\/images\/2541 - Kopie.jpg",
+		"outputAbbreviatedPath": "\/images\/2541 - Kopie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2595.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9.50347e+06,
+		"inputAbbreviatedPath": "\/images\/2595.jpg",
+		"outputAbbreviatedPath": "\/images\/2595.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3284,6 +3326,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/7747.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.6485e+06,
+		"inputAbbreviatedPath": "\/images\/7747.jpg",
+		"outputAbbreviatedPath": "\/images\/7747.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/8.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3291,6 +3344,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/images\/8.jpg",
 		"outputAbbreviatedPath": "\/images\/8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/8247.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.23871e+06,
+		"inputAbbreviatedPath": "\/images\/8247.jpg",
+		"outputAbbreviatedPath": "\/images\/8247.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3368,6 +3432,17 @@
 		"initialSize": 276162,
 		"inputAbbreviatedPath": "\/images\/bg.jpg",
 		"outputAbbreviatedPath": "\/images\/bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bor.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143167,
+		"inputAbbreviatedPath": "\/images\/bor.jpg",
+		"outputAbbreviatedPath": "\/images\/bor.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4956,6 +5031,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/vitorla.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72935,
+		"inputAbbreviatedPath": "\/images\/vitorla.jpg",
+		"outputAbbreviatedPath": "\/images\/vitorla.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/wedding.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5533,6 +5619,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/fees.sass",
 		"outputAbbreviatedPath": "\/css\/fees.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/sass\/foreign.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/foreign.sass",
+		"outputAbbreviatedPath": "\/css\/foreign.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
