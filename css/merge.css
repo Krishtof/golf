@@ -1672,7 +1672,9 @@ body .signup .title {
     min-width: 250px; }
 
 #signupModal .modal-body {
-  min-height: 440px; }
+  min-height: 485px; }
+  #signupModal .modal-body h4 {
+    margin-bottom: 30px; }
 #signupModal .dropdown {
   float: left;
   margin-top: 0px; }
