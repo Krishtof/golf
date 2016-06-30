@@ -580,6 +580,9 @@ i {
   font-size: 80px;
   color: white; }
 
+.flickity-viewport {
+  height: 800px !important; }
+
 .flickity-page-dots {
   bottom: 10px; }
 
