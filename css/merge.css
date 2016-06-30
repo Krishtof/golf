@@ -1671,7 +1671,7 @@ body .signup .title {
     min-width: 250px; }
 
 #signupModal .modal-body {
-  min-height: 370px; }
+  min-height: 440px; }
 #signupModal .dropdown {
   float: left;
   margin-top: 0px; }
@@ -1803,3 +1803,13 @@ body .foreign .title {
     .foreign .szallas.container .col-md-6.txt p {
       margin-top: 20px;
       margin-bottom: 40px; }
+  .foreign .szallas.container .offer {
+    text-align: center;
+    margin-top: 40px;
+    background-color: whitesmoke;
+    padding: 40px; }
+    .foreign .szallas.container .offer p {
+      max-width: 800px;
+      margin: 0 auto; }
+    .foreign .szallas.container .offer button {
+      margin-top: 20px; }

@@ -12,8 +12,20 @@ html
 						h4 Jelentkezés tanfolyamra
 						p 08. 04-05-06 - 3x3 óra
 					.modal-body
+						.dropdown
+							button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true') Válasszon tanfolyamot
+								span.caret
+							ul.dropdown-menu(aria-labelledby='dropdownMenu1')
+								li
+									a(href='#') Július 22-24.
+								li
+									a(href='#') Július 27. - Augusztus 3
+								li				
+									a(href='#') Augusztus 4-6.
+								li					
+									a(href='#') Augusztus 19-21.
 						form
-							.form-group
+							.form-group(style="margin-top: 70px	")
 								label.form-control-label(for='recipient-name') Név:
 								input#recipient-name.form-control(type='text')
 							.form-group
@@ -112,39 +124,26 @@ html
 				.row
 					.col-md-6.img
 					.col-md-6.txt
-						h4 Élmény
+						h4 A Golf élmény
 						p A golf több mint sport. Olyan élményt kínál, mely  máshoz nem hasonlítható. A különleges helyszín teszi páratlanná , mely a Balaton lenyűgöző panorámája, a gyönyörű zöld  felületek,  a pályát körülvevő természetes élővilág, a frissen vágott fű illata révén rabul ejti a golfozót. Amikor golfozunk nem csak sportolunk, hanem úgy érezhetjük, mintha egy szép kiránduláson vennénk rész. 
 
 			.elerheto.container
 				.row
 					.col-md-6.img
 					.col-md-6.txt
-						h4 Elérhető
+						h4 A golf mindenkinek elérhető
 						p Sok tévhit kering a golfról, de ennek ellenére mindeki számára elérhető. Éves tagsági vásárlásával korlátlanul igénybe vehetők a klub szolgáltatásai, így csak Önön múlik, hogy él e a lehetőséggel, és kiaknázza mind azt amit a golf nyújthat Önnek. Célunk, hogy megtanítsuk Önt golfozni, és ehhez nagyon kedvezményes ajánlatot kínálunk.
  
 			.ajanlat.container
 				.row
 					.col-md-6.img
 					.col-md-6.txt
-						h4 Ajánlat
+						h4 Ajánlatunk
 						p Csoportos oktatás keretében már három hétvége alatt eljuthat olyan szintre, hogy pályaalkalmassági vizsgát tehet, és ezt követően rendszeresen fejlesztheti képességeit már nem csak a gyakorlópályákon, hanem a versenypályán is. Hétvégenként vagy hétköznap 3-3 órás tanfolyamokon hatékonyan adjuk át azt a tudást, mely a gyakorlatban elvezet a golf élményeinek megtapasztalásához. 
 
 			.tanfolyam.container
 				h4 Tanfolyamok
-				p A megfelelő tanfolyam időpntjára jelentkezhet, kérjük jelölje meg a megfelelőt. A tanfolyamok hossza: 3x3 óra. 
 
-				.dropdown
-					button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true') Válasszon tanfolyamot
-						span.caret
-					ul.dropdown-menu(aria-labelledby='dropdownMenu1')
-						li
-							a(href='#') Július 22-24.
-						li
-							a(href='#') Július 27. - Augusztus 3
-						li				
-							a(href='#') Augusztus 4-6.
-						li					
-							a(href='#') Augusztus 19-21.
 				button.btn.btn-primary(type='button', data-toggle='modal', data-target='#signupModal', data-whatever='@mdo') Jelentkezés
 
 			// coaches

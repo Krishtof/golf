@@ -33,40 +33,38 @@
     </head>
   </html>
   <body>
-    <div id="signupModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" class="modal fade">
+    <div id="foreignModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" class="modal fade">
       <div role="document" class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
-            <h4>Jelentkezés tanfolyamra</h4>
-            <p>08. 04-05-06 - 3x3 óra</p>
+            <h4>Ajánlatot kérek!</h4>
           </div>
           <div class="modal-body">
             <form>
               <div class="form-group">
-                <label for="recipient-name" class="form-control-label">Név:</label>
+                <label for="recipient-name" class="form-control-label">Név</label>
                 <input id="recipient-name" type="text" class="form-control">
               </div>
               <div class="form-group">
-                <label for="recipient-name" class="form-control-label">Email:</label>
+                <label for="recipient-email" class="form-control-label">Email:</label>
                 <input id="recipient-name" type="text" class="form-control">
               </div>
               <div class="form-group">
-                <label for="recipient-name" class="form-control-label">Telefonszám:</label>
+                <label for="recipient-phone" class="form-control-label">Telefonszám:</label>
                 <input id="recipient-name" type="text" class="form-control">
               </div>
               <div class="form-group">
-                <label for="recipient-name" class="form-control-label">Életkor:</label>
+                <label for="recipient-age" class="form-control-label">Életkor:</label>
                 <input id="recipient-name" type="text" class="form-control">
               </div>
               <div class="form-group">
-                <div class="dropdown">
-                  <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" class="btn btn-default dropdown-toggle">Nem<span class="caret"></span></button>
-                  <ul aria-labelledby="dropdownMenu1" class="dropdown-menu">
-                    <li><a href="#">Férfi</a></li>
-                    <li><a href="#">Nő</a></li>
-                  </ul>
-                </div>
+                <label for="recipient-nr" class="form-control-label">Hány főre szeretné igénybe venni?</label>
+                <input id="recipient-name" type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="comment">Speciális kérések:</label>
+                <textarea id="comment" rows="5" class="form-control">					</textarea>
               </div>
             </form>
           </div>
@@ -164,7 +162,15 @@
           <div class="col-md-6 txt">
             <h4>Szállás</h4>
             <p>A kényelmes elhelyezésről a golfpályához közeli hotelek gondoskodnak. Az alábbi linkre kattintva választhat hoteleink kínálatából, ahol vendégeink kedvezménnyel vehetik igénybe a hotelszolgáltatásokat. Programajánlatunkban gondoskodunk arról, hogy vendégeink hoteltől hotelig történő szállítással vehessenek részt, így gondtalanul élvezhesség az egésznapos programot.</p>
-            <button type="button" class="btn btn-default">Tovább a hotelekhez</button>
+          </div>
+        </div>
+        <div class="row offer">
+          <div class="col-md-12">
+            <h4>Töltse nálunk egy napját!</h4>
+            <p>Egésznapos program 2x9 lyuk golf, ebéd, vitorlázás, badacsonyi kirándulás és borkóstoló tarnsferrel: </p>
+            <h3>170Euro/fő</h3>
+            <p>Az ár 8 fős csoport esetén érvényes, alacsobnyabb létszám esetén kérjen egyedi ajánlatot</p>
+            <button type="button" data-toggle="modal" data-target="#foreignModal" data-whatever="@mdo" class="btn btn-primary">Ajánlatot kérek</button>
           </div>
         </div>
       </div>

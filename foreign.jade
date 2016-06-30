@@ -2,38 +2,36 @@ doctype html
 html
 	include ./head
 	body
-		#signupModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel')
+		#foreignModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel')
 			.modal-dialog(role='document')
 				.modal-content
 					.modal-header
 
 						button.close(type='button', data-dismiss='modal', aria-label='Close')
 							span(aria-hidden='true') ×
-						h4 Jelentkezés tanfolyamra
-						p 08. 04-05-06 - 3x3 óra
+						h4 Ajánlatot kérek!
 					.modal-body
 						form
 							.form-group
-								label.form-control-label(for='recipient-name') Név:
+								label.form-control-label(for='recipient-name') Név
 								input#recipient-name.form-control(type='text')
 							.form-group
-								label.form-control-label(for='recipient-name') Email:
+								label.form-control-label(for='recipient-email') Email:
 								input#recipient-name.form-control(type='text')
 							.form-group
-								label.form-control-label(for='recipient-name') Telefonszám:
+								label.form-control-label(for='recipient-phone') Telefonszám:
 								input#recipient-name.form-control(type='text')
 							.form-group
-								label.form-control-label(for='recipient-name') Életkor:
+								label.form-control-label(for='recipient-age') Életkor:
 								input#recipient-name.form-control(type='text')
 							.form-group
-								.dropdown
-									button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true') Nem
-										span.caret
-									ul.dropdown-menu(aria-labelledby='dropdownMenu1')
-										li
-											a(href='#') Férfi
-										li
-											a(href='#') Nő
+								label.form-control-label(for='recipient-nr') Hány főre szeretné igénybe venni?
+								input#recipient-name.form-control(type='text')					
+							.form-group
+								label(for='comment') Speciális kérések:
+								textarea#comment.form-control(rows='5')					
+
+
 					.modal-footer
 						button.btn.btn-primary(type='button') Jelentkezem
 		.subheader
@@ -136,7 +134,15 @@ html
 					.col-md-6.txt
 						h4 Szállás
 						p A kényelmes elhelyezésről a golfpályához közeli hotelek gondoskodnak. Az alábbi linkre kattintva választhat hoteleink kínálatából, ahol vendégeink kedvezménnyel vehetik igénybe a hotelszolgáltatásokat. Programajánlatunkban gondoskodunk arról, hogy vendégeink hoteltől hotelig történő szállítással vehessenek részt, így gondtalanul élvezhesség az egésznapos programot.
-						button.btn.btn-default(type='button') Tovább a hotelekhez
+				.row.offer
+					.col-md-12
+						h4 Töltse nálunk egy napját!
+						p Egésznapos program 2x9 lyuk golf, ebéd, vitorlázás, badacsonyi kirándulás és borkóstoló tarnsferrel: 
+						h3 170Euro/fő
+						p Az ár 8 fős csoport esetén érvényes, alacsobnyabb létszám esetén kérjen egyedi ajánlatot
+						button.btn.btn-primary(type='button', data-toggle='modal', data-target='#foreignModal', data-whatever='@mdo') Ajánlatot kérek
+
+
 
 			// coaches
 			// Footer
