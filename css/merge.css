@@ -56,7 +56,7 @@ h4 {
   font-family: "Playfair Display", serif !important;
   font-size: 26px !important;
   color: #684607 !important;
-  line-height: 23px !important;
+  line-height: 33px !important;
   text-transform: uppercase; }
 
 p, td, li, ul {
@@ -951,6 +951,15 @@ i {
   background-color: #353942; }
   .main_footer .heart, .main_footer a, .main_footer .copyright {
     color: white; }
+
+.album_holder h5 {
+  margin: -4px 0 0 0 !important;
+  font-family: "Playfair Display", serif !important;
+  color: #353942 !important;
+  font-size: 17px !important; }
+
+.album_holder > div.album_link {
+  display: none !important; }
 
 /* --------------------------------
  *
