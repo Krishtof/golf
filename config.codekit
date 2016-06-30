@@ -5727,15 +5727,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/signup.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/signup.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/signup.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
