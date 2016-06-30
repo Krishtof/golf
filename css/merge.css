@@ -176,13 +176,14 @@ select {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-shadow: 0 3px 0;
-  -moz-box-shadow: 0 3px 0;
+  -webkit-box-shadow: 0 2px 0;
+  -moz-box-shadow: 0 2px 0;
   font-family: "Playfair Display", serif;
   font-size: 17px;
   background: none;
-  color: black;
+  color: #353942;
   font-size: 16px;
+  min-width: 80px;
   border: none;
   outline: none;
   display: inline-block;
@@ -203,7 +204,7 @@ select {
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
   right: 8px;
-  top: 2px;
+  top: 10px;
   padding: 0 0 2px;
   border-bottom: 1px solid #ddd;
   position: absolute;
@@ -1878,6 +1879,7 @@ body .signup .title {
     min-width: 250px; }
 
 #signupModal .modal-body {
+  margin-top: 20px;
   min-height: 485px; }
   #signupModal .modal-body h4 {
     margin-bottom: 30px; }

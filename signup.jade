@@ -12,20 +12,15 @@ html
 						
 						.modal-body
 							h4 Jelentkezés tanfolyamra
-							.dropdown
-								button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true') Válasszon tanfolyamot
-									span.caret
-								ul.dropdown-menu(aria-labelledby='dropdownMenu1')
-									li
-										a(href='#') Július 22-24.
-									li
-										a(href='#') Július 27. - Augusztus 3
-									li				
-										a(href='#') Augusztus 4-6.
-									li					
-										a(href='#') Augusztus 19-21.
+							label(style="display: block") Válassz időpontot
+							label.felle
+								select
+									option(selected='')  Július 22-24.
+									option Július 27. - Augusztus 3
+									option Augusztus 19-21.
+
 							form
-								.form-group(style="margin-top: 100px	")
+								.form-group(style="margin-top: 10px")
 									label.form-control-label(for='recipient-name') Név:
 									input#recipient-name.form-control(type='text')
 								.form-group
@@ -38,14 +33,11 @@ html
 									label.form-control-label(for='recipient-name') Életkor:
 									input#recipient-name.form-control(type='text')
 								.form-group
-									.dropdown
-										button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='true') Nem
-											span.caret
-										ul.dropdown-menu(aria-labelledby='dropdownMenu1')
-											li
-												a(href='#') Férfi
-											li
-												a(href='#') Nő
+									label(style="display: block") nemed
+									label.felle
+										select
+											option(selected='')  Férfi
+											option Nő
 					.modal-footer
 						button.btn.btn-primary(type='button') Jelentkezem
 		.subheader
