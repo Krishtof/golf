@@ -191,10 +191,10 @@ select {
   appearance: none;
   cursor: pointer; }
 
-label {
+.felle {
   position: relative; }
 
-label:after {
+.felle:after {
   content: "<>";
   font: 15px "Consolas", monospace;
   color: black;
