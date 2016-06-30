@@ -342,20 +342,21 @@ header
  *--------------------------------
 .second_nav
   .container
-    padding-top: 5px
+    padding-top: 8px
   background-color: $color-1
-  height: 50px
+  height: 80px
 
   a
     display: inline-block
     padding: 10px
     padding-bottom: 0px
     padding-top: 0px
-    padding-left: 0px
+    padding-left: 6px
     position: relative
     top: 2px
     font-size: 13px
     color: #dadada
+    line-height: 30px
     text-transform: uppercase
 
 
@@ -366,20 +367,21 @@ header
   a:hover
     color: white
     text-decoration: none
-@media (min-width: 360px)
+
+@media (min-width: 680px)
+  .second_nav
+    height: 50px
+
+@media (min-width: 992px)
   .second_nav
     a
-      top: 10px
-
-
-
-@media (min-width: 460px)
-  .second_nav
-    a
-      padding: 20px
-      padding-left: 0px
       font-size: 16px
-      top: -10px
+
+
+@media (min-width: 1040px)
+  .second_nav
+    a
+      padding-left: 20px
 /* -------------------------------- 
  *
  *cover
