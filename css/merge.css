@@ -600,9 +600,6 @@ header {
 .flickity-page-dots {
   bottom: 340px; }
 
-@media (max-width: 528px) {
-  .flickity-page-dots {
-    bottom: 300px; } }
 .flickity-prev-next-button {
   display: none; }
 
@@ -679,7 +676,7 @@ header {
       margin-top: -280px; } }
 
 @media (min-width: 992px) {
-  .col-md-4 {
+  .offers.col-md-4, .eventstile.col-md-4, .course.col-md-4 {
     width: 31.33333%;
     text-align: center; } }
 .offers {
@@ -799,6 +796,23 @@ header {
   @media only screen and (min-width: 992px) {
     .modal.in .modal-dialog {
       min-width: 800px; } }
+
+/* --------------------------------
+ *
+ *SUBSCRIBE
+ *
+ *-------------------------------- */
+.partners {
+  text-align: center;
+  padding-bottom: 100px; }
+  .partners h4 {
+    margin-bottom: 40px; }
+  .partners .col-md-2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .partners .col-md-2 img {
+      max-width: 135px; }
 
 /* --------------------------------
  *
@@ -1022,6 +1036,96 @@ body .overlay {
   height: 400px;
   top: 400px;
   margin-top: -400px; }
+
+/* --------------------------------
+ *
+ *title
+ *
+ *-------------------------------- */
+.golfclubpartners {
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center; }
+  .golfclubpartners h4 {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  .golfclubpartners .image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px; }
+  .golfclubpartners .one {
+    background-image: url(../images/sonnengolf.jpg); }
+  .golfclubpartners .two {
+    background-image: url(../images/zalasprings.jpg); }
+  .golfclubpartners .three {
+    background-image: url(../images/zalasprings.jpg); }
+  .golfclubpartners .four {
+    background-image: url(../images/zalasprings.jpg); }
+  .golfclubpartners .col-md-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center; }
+    .golfclubpartners .col-md-6 h3 {
+      margin-top: 30px;
+      top: 130px;
+      color: white !important;
+      position: absolute;
+      margin: 0 auto;
+      text-align: center;
+      width: 100%; }
+    .golfclubpartners .col-md-6 h3:after {
+      content: "";
+      height: 1px;
+      width: 40px;
+      display: block;
+      background-color: white;
+      margin: 0 auto;
+      margin-top: 13px;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+    .golfclubpartners .col-md-6 h2 {
+      position: absolute;
+      bottom: 70px;
+      width: 100%;
+      margin: 0 auto;
+      color: white !important;
+      opacity: 0 !important;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+  .golfclubpartners .col-md-6:hover h2 {
+    opacity: 1 !important;
+    cursor: pointer;
+    bottom: 100px; }
+  .golfclubpartners .col-md-6:hover h3:after {
+    width: 80%; }
+  .golfclubpartners .overlay_p {
+    background: rgba(0, 0, 0, 0.48);
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    top: 301px;
+    margin-top: -300px; }
+
+/* --------------------------------
+ *
+ *servicePartners
+ *
+ *-------------------------------- */
+.servicepartners {
+  text-align: center; }
+  .servicepartners h4 {
+    margin-bottom: 40px;
+    padding-top: 50px; }
+  .servicepartners .col-md-2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .servicepartners img {
+    max-width: 135px; }
 
 /* --------------------------------
  *
