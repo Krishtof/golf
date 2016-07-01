@@ -78,6 +78,30 @@ html
 			.container.titlebackground
 				.overlay(onclick="style.pointerEvents='none'")
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6782.733665605803!2d17.365990814117605!3d46.77711320842916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4769023a62aef2cd%3A0xf00c42a07e36190!2sGolfclub+Imperial+Balaton!5e0!3m2!1shu!2shu!4v1465482382607" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+			.container.title
+				h4 Lépjen kapcsolatba velünk!
+				p Telefon: +36/83346031
+				p Email: clubhouse@golfimperial.hu
+				h3(style="margin-top: 60px") Nyitva tartás
+				P Klubunk rendhagyó módon egész évben várja a golf barátait.
+				P(style="font-weight: bold") Nyáron:
+				P Március 1-től november 15-ig, minden nap 8:30 és 19:00 között.
+				P(style="font-weight: bold") Télen:
+				p November 16-tól február 28-ig, minden pénteken és szombaton 10:00 és 17:00 között.
+				h3.form Hagyjon üzenetet!
+
+				form(role='form')
+					.form-group
+						label(for='email') Email address:
+						input#email.form-control(type='email')
+					.form-group
+						label(for='comment') Message
+						input.form-control(type='text', cols='40', rows='5', style=' height:150px;', name='Text1', value='')
+
+					button.btn.btn-default(type='submit') Küldés
+
 			.container.golfclubpartners
 				h4 Partnereink - Golfklubbok
 
@@ -106,28 +130,6 @@ html
 					a(href="http://dohmeier.hu" target="_blank")
 						img(src="images/exclusive.jpg")
 
-
-			.container.title
-				h4 Lépjen kapcsolatba velünk!
-				p Telefon: +36/83346031
-				p Email: clubhouse@golfimperial.hu
-				h3(style="margin-top: 60px") Nyitva tartás
-				P Klubunk rendhagyó módon egész évben várja a golf barátait.
-				P(style="font-weight: bold") Nyáron:
-				P Március 1-től november 15-ig, minden nap 8:30 és 19:00 között.
-				P(style="font-weight: bold") Télen:
-				p November 16-tól február 28-ig, minden pénteken és szombaton 10:00 és 17:00 között.
-				h3.form Hagyjon üzenetet!
-
-				form(role='form')
-					.form-group
-						label(for='email') Email address:
-						input#email.form-control(type='email')
-					.form-group
-						label(for='comment') Message
-						input.form-control(type='text', cols='40', rows='5', style=' height:150px;', name='Text1', value='')
-
-					button.btn.btn-default(type='submit') Küldés
 			// coaches
 			// Footer
 			include ./footer
