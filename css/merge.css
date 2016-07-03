@@ -1005,7 +1005,6 @@ body .subheader .horizontal {
 body .about .title {
   text-align: center;
   padding: 50px;
-  padding-top: 0px;
   max-width: 800px; }
   body .about .title h4 {
     padding-bottom: 20px; }
@@ -1048,7 +1047,8 @@ body .overlay {
 .golfclubpartners {
   padding-left: 0px;
   padding-right: 0px;
-  text-align: center; }
+  text-align: center;
+  margin-top: -40px; }
   .golfclubpartners h4 {
     padding-top: 40px;
     padding-bottom: 40px; }
