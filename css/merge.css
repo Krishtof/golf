@@ -641,7 +641,7 @@ header {
   transition: background-image 0.3s ease;
   transition: box-shadow 0.3s ease;
   text-align: center;
-  min-height: 350px; }
+  min-height: 390px; }
   .offers.col-md-4 h3, .eventstile.col-md-4 h3, .course.col-md-4 h3 {
     color: #353942 !important;
     margin: initial;
@@ -952,6 +952,9 @@ header {
  *-------------------------------- */
 .main_footer {
   background-color: #353942; }
+  .main_footer a {
+    padding-left: 10px;
+    padding-right: 10px; }
   .main_footer .heart, .main_footer a, .main_footer .copyright {
     color: white; }
 
