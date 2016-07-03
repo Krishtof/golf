@@ -1862,6 +1862,7 @@ body .gallery {
     text-align: center;
     padding: 50px;
     max-width: 800px;
+    min-height: 80vh;
     padding-bottom: 0px; }
     body .gallery .title h4 {
       padding-bottom: 20px; }
