@@ -616,7 +616,10 @@ header {
   opacity: 0.6;
   color: #684607;
   padding-top: 15px;
-  margin-top: -100px; }
+  margin-top: -15px; }
+  @media only screen and (min-width: 992px) {
+    .btn.cover {
+      margin-top: 10px; } }
 
 .btn.cover:hover {
   opacity: 1;
@@ -1883,6 +1886,12 @@ body .gallery {
       margin-bottom: 40px; }
   body .gallery .rent {
     padding-bottom: 50px; }
+
+.dwnld_button .glyphicon {
+  float: right;
+  font-size: 30px;
+  margin-right: 20px;
+  margin-bottom: 10px; }
 
 /* --------------------------------
  *
