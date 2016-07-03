@@ -156,21 +156,36 @@ html
           h4 NEARBY ATTRACTIONS
       .row
         .gallery.js-flickity(data-flickity-options='{ "autoPlay": 4000 }', tabindex='0')
-          .gallery-cell.b1
-            h4 Keszthely (12 km)
-            p A húszezres kisváros valóban kedvezhet az épített örökség iránt érdeklődőknek: a sétálóutca műemlékei, a gótikus ferences templom és a barokk, kiemelkedő értékű Festetics-kastély is megtekintésre érdemes látványosságok, elérésük pedig autóval szűk húsz perc alatt lehetséges.
-          .gallery-cell.b2        
-            h4 Badacsony (16 km) 
-            p A 71-es főútvonalon alig negyed órát autózva érhető el a környék egyik legértékesebb földrajzi kincse, a Badacsony tanúhegye. Kőfolyásaival, bazaltszikláival és a Balaton látványával remek attrakciókkal kecsegteti a túrázókat, ráadásul útja mentén hangulatos pincészetek kínálják majd messze földön híres boraikat Önnek. 
-          .gallery-cell.b3     
-            h4 Szigligeti vár (11 km)
-            p Egy másik vulkanikus tanúhegyen, a szigligeti Várhegyen találjuk „a Balaton várát”, ami masszív falai mellett élvezetes történelmi, illetve gasztronómiai programokkal várja az idelátogatót.   A gépkocsival rendelkezőket mindössze 15 perc választja el Balatongyöröktől! 
-          .gallery-cell.b4    
-            h4 Hévíz (18 km)
-            p Hévíz fő vonzerejét a mérete alapján világelső természetes, biológiailag aktív termáltavának köszönheti. Gyógyító vízét golfpályánktól indulva egy alig húszperces kocsiúttal könnyen elérheti. 
-          .gallery-cell.b5    
-            h4 Tihany (53 km) 
-            p Az északi partszakasz mentén végig autózva érjük el a tihanyi-félszigetet. Természeti (gejzírkúpok, levendulások, kecskeköröm) és épített (bencés apátság, barátlakások) öröksége egyaránt gazdag. Az alig több, mint háromnegyed órás autóúton pedig a Balaton panorámája lehet állandó kísérőjük.
+          .gallery-cell
+            .container-fluid
+              .col-md-6.txt
+                h4 Keszthely (12 km)
+                p A húszezres kisváros valóban kedvezhet az épített örökség iránt érdeklődőknek: a sétálóutca műemlékei, a gótikus ferences templom és a barokk, kiemelkedő értékű Festetics-kastély is megtekintésre érdemes látványosságok, elérésük pedig autóval szűk húsz perc alatt lehetséges.
+              .col-md-6.b1
+          .gallery-cell
+            .container-fluid
+              .col-md-6.txt        
+                h4 Badacsony (16 km) 
+                p A 71-es főútvonalon alig negyed órát autózva érhető el a környék egyik legértékesebb földrajzi kincse, a Badacsony tanúhegye. Kőfolyásaival, bazaltszikláival és a Balaton látványával remek attrakciókkal kecsegteti a túrázókat, ráadásul útja mentén hangulatos pincészetek kínálják majd messze földön híres boraikat Önnek.
+              .col-md-6.b2
+          .gallery-cell
+            .container-fluid
+              .col-md-6.txt
+                h4 Szigligeti vár (11 km)
+                p Egy másik vulkanikus tanúhegyen, a szigligeti Várhegyen találjuk „a Balaton várát”, ami masszív falai mellett élvezetes történelmi, illetve gasztronómiai programokkal várja az idelátogatót.   A gépkocsival rendelkezőket mindössze 15 perc választja el Balatongyöröktől!
+              .col-md-6.b3
+          .gallery-cell.b4
+            .container-fluid
+              .col-md-6.txt
+                h4 Hévíz (18 km)
+                p Hévíz fő vonzerejét a mérete alapján világelső természetes, biológiailag aktív termáltavának köszönheti. Gyógyító vízét golfpályánktól indulva egy alig húszperces kocsiúttal könnyen elérheti.
+              .col-md-6.b4
+          .gallery-cell
+            .container-fluid
+              .col-md-6.txt
+                h4 Tihany (53 km) 
+                p Az északi partszakasz mentén végig autózva érjük el a tihanyi-félszigetet. Természeti (gejzírkúpok, levendulások, kecskeköröm) és épített (bencés apátság, barátlakások) öröksége egyaránt gazdag. Az alig több, mint háromnegyed órás autóúton pedig a Balaton panorámája lehet állandó kísérőjük.
+              .col-md-6.b5
     .references.container
       .row
         .col-md-12
@@ -182,26 +197,8 @@ html
         .col-md-4
           p "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 
-    .partners.container
-      h4 Partnereink
-      .col-md-2
-        a(href="http://dohmeier.hu")
-          img(src="images/dohmeier.jpg" target="_blank")
-      .col-md-2
-        a(href="http://dohmeier.hu" target="_blank")
-          img(src="images/optika24.png")
-      .col-md-2
-        a(href="http://dohmeier.hu" target="_blank")
-          img(src="images/exclusive.jpg")
-      .col-md-2
-        a(href="http://dohmeier.hu" target="_blank")        
-          img(src="images/optika24.png")
-      .col-md-2
-        a(href="http://dohmeier.hu" target="_blank")        
-          img(src="images/exclusive.jpg")
-      .col-md-2
-        a(href="http://dohmeier.hu" target="_blank")        
-          img(src="images/dohmeier.jpg")
+
+
     .reservation.container
       .row
         .col-md-12.title

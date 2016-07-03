@@ -604,7 +604,7 @@ header
 .flickity-page-dots .dot
   background: white
 .flickity-page-dots
-  bottom: 340px
+  bottom: 399px
 
 .flickity-prev-next-button
   display: none
@@ -622,6 +622,7 @@ header
   opacity: 0.6
   color: $color-1
   padding-top: 15px
+  margin-top: -100px
 .btn.cover:hover
   opacity: 1
   background-color: white
@@ -638,7 +639,7 @@ header
 .offers.col-md-4, .eventstile.col-md-4, .course.col-md-4
   margin: 10px
   background-color: white
-  min-height: 340px
+  min-height: 400px
   padding: 40px
   -webkit-box-shadow: 15px 15px 25px -8px rgba(0,0,0,0.26)
   -moz-box-shadow: 15px 15px 25px -8px rgba(0,0,0,0.26)
@@ -646,6 +647,7 @@ header
   transition: background-image 0.3s ease
   transition: box-shadow 0.3s ease
   text-align: center
+  min-height: 350px
 
 
 
@@ -822,23 +824,6 @@ header
 
 
 
-/* -------------------------------- 
- *
- *SUBSCRIBE
- *
- *--------------------------------
-.partners
-  text-align: center
-  padding-bottom: 100px
-  h4
-    margin-bottom: 40px
-  .col-md-2
-    text-align: center
-    padding-top: 20px
-    padding-bottom: 20px
-
-    img
-      max-width: 135px  
 
 
 /* -------------------------------- 
@@ -887,7 +872,6 @@ header
     margin-right: 10px
     background: #8C8
     counter-increment: gallery-cell
-    padding: 90px
 
     h4
       margin-bottom: 20px
@@ -905,6 +889,10 @@ header
     font-size: 80px
     color: white
 
+  .txt
+    padding: 50px
+    height: 300px
+    background-color: $color-2
 
   .flickity-page-dots 
     bottom: 10px
@@ -913,26 +901,31 @@ header
     background-repeat: no-repeat
     background-position: center
     background-size: cover
+    height: 300px
   .b2
     background-image: url(../images/badacsony.jpg)
     background-repeat: no-repeat
     background-position: center
     background-size: cover
+    height: 300px
   .b3
     background-image: url(../images/szigliget.jpg)
     background-repeat: no-repeat
     background-position: center
     background-size: cover
+    height: 300px
   .b4
     background-image: url(../images/heviz.jpg)
     background-repeat: no-repeat
     background-position: center
     background-size: cover
+    height: 300px
   .b5
     background-image: url(../images/tihany.jpg)
     background-repeat: no-repeat
     background-position: top
     background-size: cover
+    height: 300px
   .gallery-cell:before
     display: none
 
@@ -944,6 +937,8 @@ header
   .flickity-prev-next-button
     display: block
 
+.flickity-viewport
+  height: inherit !important
 /* -------------------------------- 
  *
  *References

@@ -598,7 +598,7 @@ header {
   background: white; }
 
 .flickity-page-dots {
-  bottom: 340px; }
+  bottom: 399px; }
 
 .flickity-prev-next-button {
   display: none; }
@@ -615,7 +615,8 @@ header {
   background-color: white;
   opacity: 0.6;
   color: #684607;
-  padding-top: 15px; }
+  padding-top: 15px;
+  margin-top: -100px; }
 
 .btn.cover:hover {
   opacity: 1;
@@ -632,14 +633,15 @@ header {
 .offers.col-md-4, .eventstile.col-md-4, .course.col-md-4 {
   margin: 10px;
   background-color: white;
-  min-height: 340px;
+  min-height: 400px;
   padding: 40px;
   -webkit-box-shadow: 15px 15px 25px -8px rgba(0, 0, 0, 0.26);
   -moz-box-shadow: 15px 15px 25px -8px rgba(0, 0, 0, 0.26);
   box-shadow: 15px 15px 25px -8px rgba(0, 0, 0, 0.26);
   transition: background-image 0.3s ease;
   transition: box-shadow 0.3s ease;
-  text-align: center; }
+  text-align: center;
+  min-height: 350px; }
   .offers.col-md-4 h3, .eventstile.col-md-4 h3, .course.col-md-4 h3 {
     color: #353942 !important;
     margin: initial;
@@ -802,23 +804,6 @@ header {
  *SUBSCRIBE
  *
  *-------------------------------- */
-.partners {
-  text-align: center;
-  padding-bottom: 100px; }
-  .partners h4 {
-    margin-bottom: 40px; }
-  .partners .col-md-2 {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px; }
-    .partners .col-md-2 img {
-      max-width: 135px; }
-
-/* --------------------------------
- *
- *SUBSCRIBE
- *
- *-------------------------------- */
 .subscribe.container {
   background-color: #cbccce;
   text-align: center;
@@ -857,8 +842,7 @@ header {
     height: 100%;
     margin-right: 10px;
     background: #8C8;
-    counter-increment: gallery-cell;
-    padding: 90px; }
+    counter-increment: gallery-cell; }
     .attractions.container .gallery-cell h4 {
       margin-bottom: 20px; }
     .attractions.container .gallery-cell p, .attractions.container .gallery-cell h4 {
@@ -871,33 +855,42 @@ header {
     line-height: 200px;
     font-size: 80px;
     color: white; }
+  .attractions.container .txt {
+    padding: 50px;
+    height: 300px;
+    background-color: #353942; }
   .attractions.container .flickity-page-dots {
     bottom: 10px; }
   .attractions.container .b1 {
     background-image: url(../images/keszthely.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; }
+    background-size: cover;
+    height: 300px; }
   .attractions.container .b2 {
     background-image: url(../images/badacsony.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; }
+    background-size: cover;
+    height: 300px; }
   .attractions.container .b3 {
     background-image: url(../images/szigliget.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; }
+    background-size: cover;
+    height: 300px; }
   .attractions.container .b4 {
     background-image: url(../images/heviz.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; }
+    background-size: cover;
+    height: 300px; }
   .attractions.container .b5 {
     background-image: url(../images/tihany.jpg);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: cover; }
+    background-size: cover;
+    height: 300px; }
   .attractions.container .gallery-cell:before {
     display: none; }
   .attractions.container .flickity-page-dots .dot {
@@ -906,6 +899,9 @@ header {
     bottom: 200px0px; }
   .attractions.container .flickity-prev-next-button {
     display: block; }
+
+.flickity-viewport {
+  height: inherit !important; }
 
 /* --------------------------------
  *
@@ -1003,6 +999,7 @@ body .subheader .horizontal {
 body .about .title {
   text-align: center;
   padding: 50px;
+  padding-top: 0px;
   max-width: 800px; }
   body .about .title h4 {
     padding-bottom: 20px; }
