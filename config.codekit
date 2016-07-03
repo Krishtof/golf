@@ -3181,6 +3181,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/188felulrol.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96024,
+		"inputAbbreviatedPath": "\/images\/188felulrol.jpg",
+		"outputAbbreviatedPath": "\/images\/188felulrol.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/188uszoda.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3342,6 +3353,17 @@
 		"initialSize": 335722,
 		"inputAbbreviatedPath": "\/images\/camp.jpg",
 		"outputAbbreviatedPath": "\/images\/camp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/carbona.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.93404e+06,
+		"inputAbbreviatedPath": "\/images\/carbona.jpg",
+		"outputAbbreviatedPath": "\/images\/carbona.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
