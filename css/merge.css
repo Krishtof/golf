@@ -546,6 +546,8 @@ header {
  *cover
  *
  *-------------------------------- */
+.cover .flickity-page-dots {
+  bottom: 289px; }
 .cover .row {
   margin-left: 0px;
   margin-right: 0px; }
@@ -610,9 +612,6 @@ header {
 .flickity-page-dots .dot {
   background: white; }
 
-.flickity-page-dots {
-  bottom: 399px; }
-
 .flickity-prev-next-button {
   display: none; }
 
@@ -629,7 +628,7 @@ header {
   opacity: 0.6;
   color: #684607;
   padding-top: 15px;
-  margin-top: -15px; }
+  margin-top: -50px; }
   @media only screen and (min-width: 992px) {
     .btn.cover {
       margin-top: 10px; } }
