@@ -3291,6 +3291,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/balatongyorok.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 558786,
+		"inputAbbreviatedPath": "\/images\/balatongyorok.png",
+		"outputAbbreviatedPath": "\/images\/balatongyorok.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/Balatongyörök Panorama___superior.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

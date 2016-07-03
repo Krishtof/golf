@@ -553,6 +553,9 @@ header {
     margin-bottom: 40px; }
   .cover .col-md-12 .textholder {
     padding-top: 185px; }
+    .cover .col-md-12 .textholder img {
+      max-width: 260px;
+      margin-bottom: 20px; }
 
 .gallery-cell {
   width: 100%;
@@ -904,7 +907,7 @@ header {
     @media only screen and (min-width: 992px) {
       .attractions.container .flickity-page-dots {
         bottom: 20px;
-        left: -80px; } }
+        left: -800px; } }
   .attractions.container .flickity-prev-next-button {
     display: block; }
 
