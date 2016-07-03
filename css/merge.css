@@ -641,8 +641,8 @@ header {
   -webkit-box-shadow: 15px 15px 25px -8px rgba(0, 0, 0, 0.26);
   -moz-box-shadow: 15px 15px 25px -8px rgba(0, 0, 0, 0.26);
   box-shadow: 15px 15px 25px -8px rgba(0, 0, 0, 0.26);
-  transition: background-image 0.3s ease;
-  transition: box-shadow 0.3s ease;
+  transition: all 0.3s ease;
+  transition: all 0.3s ease;
   text-align: center;
   min-height: 390px; }
   .offers.col-md-4 h3, .eventstile.col-md-4 h3, .course.col-md-4 h3 {
@@ -837,7 +837,7 @@ header {
     text-align: center;
     padding: 100px; }
   .attractions.container .gallery {
-    height: 500px; }
+    height: 580px; }
     @media only screen and (min-width: 992px) {
       .attractions.container .gallery {
         height: 300px; } }
@@ -900,7 +900,11 @@ header {
   .attractions.container .flickity-page-dots .dot {
     background: white; }
   .attractions.container .flickity-page-dots {
-    bottom: 200px0px; }
+    bottom: 235px; }
+    @media only screen and (min-width: 992px) {
+      .attractions.container .flickity-page-dots {
+        bottom: 20px;
+        left: -80px; } }
   .attractions.container .flickity-prev-next-button {
     display: block; }
 
@@ -1339,9 +1343,13 @@ body .club .accomodations.container {
   padding-left: 0px;
   padding-right: 0px; }
   body .club .accomodations.container .flickity-page-dots {
-    bottom: 20px; }
+    bottom: 370px; }
+    @media only screen and (min-width: 992px) {
+      body .club .accomodations.container .flickity-page-dots {
+        bottom: 20px;
+        right: 80px; } }
   body .club .accomodations.container .gallery {
-    height: 360px0px;
+    height: 700px;
     margin-bottom: 50px; }
     @media only screen and (min-width: 992px) {
       body .club .accomodations.container .gallery {

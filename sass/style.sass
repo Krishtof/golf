@@ -648,8 +648,8 @@ header
   -webkit-box-shadow: 15px 15px 25px -8px rgba(0,0,0,0.26)
   -moz-box-shadow: 15px 15px 25px -8px rgba(0,0,0,0.26)
   box-shadow: 15px 15px 25px -8px rgba(0,0,0,0.26)
-  transition: background-image 0.3s ease
-  transition: box-shadow 0.3s ease
+  transition: all 0.3s ease
+  transition: all 0.3s ease
   text-align: center
   min-height: 390px
 
@@ -867,7 +867,7 @@ header
     padding: 100px
 
   .gallery
-    height: 500px
+    height: 580px
 
     +MQ (M)
       height: 300px
@@ -937,7 +937,11 @@ header
   .flickity-page-dots .dot
     background: white
   .flickity-page-dots
-    bottom: 200px0px
+    bottom: 235px
+
+    +MQ (M)
+      bottom: 20px
+      left: -80px
 
   .flickity-prev-next-button
     display: block
