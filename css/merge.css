@@ -769,6 +769,8 @@ header {
 .map.container .col-md-6.vid {
   padding-left: 0px;
   padding-right: 0px; }
+  .map.container .col-md-6.vid .embed-responsive.embed-responsive-16by9 {
+    min-height: 370px; }
   .map.container .col-md-6.vid .btn {
     height: 100%;
     width: 100%;
