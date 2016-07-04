@@ -153,13 +153,28 @@ body
 			padding-left: 0px
 			padding-right: 0px
 			.flickity-page-dots
-				bottom: 370px
+				bottom: 270px
+
+				+MQ (S)
+					bottom: 360px
 
 				+MQ (M)
 					bottom: 20px
 					right: 80px
+			.flickity-prev-next-button
+				display: block
+				top: 50px
+			.previous
+				+MQ (M)
+					top: 40px
+					left: 38%
+			.next
+				+MQ (M)
+					top: 40px
+					left: 44%
+
 			.gallery
-				height: 700px
+				height: 720px
 				margin-bottom: 50px
 
 				+MQ (M)

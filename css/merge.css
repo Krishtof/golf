@@ -766,18 +766,10 @@ header {
  *map
  *
  *-------------------------------- */
-.map.container .col-md-6.img {
-  background-image: url("../images/Imperial-teljes.png");
-  height: 370px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.map.container .col-md-6.vid {
   padding-left: 0px;
   padding-right: 0px; }
-  @media only screen and (min-width: 992px) {
-    .map.container .col-md-6.img {
-      margin-bottom: 60px; } }
-  .map.container .col-md-6.img .btn {
+  .map.container .col-md-6.vid .btn {
     height: 100%;
     width: 100%;
     background-color: transparent; }
@@ -1187,18 +1179,20 @@ body .subheader .horizontal {
  *title
  *
  *-------------------------------- */
-body .academy .title {
-  text-align: center;
-  padding: 50px;
-  max-width: 800px; }
-  body .academy .title h4 {
-    padding-bottom: 20px; }
-body .academy .titlebackground {
-  background-image: url("../images/coach.jpg");
-  background-repeat: no-repeat;
-  height: 600px;
-  background-size: cover;
-  background-position: center; }
+body .academy {
+  background-color: whitesmoke; }
+  body .academy .title {
+    text-align: center;
+    padding: 50px;
+    max-width: 800px; }
+    body .academy .title h4 {
+      padding-bottom: 20px; }
+  body .academy .titlebackground {
+    background-image: url("../images/coach.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    background-position: center; }
 
 /* --------------------------------
  *
@@ -1355,13 +1349,27 @@ body .club .accomodations.container {
   padding-left: 0px;
   padding-right: 0px; }
   body .club .accomodations.container .flickity-page-dots {
-    bottom: 370px; }
+    bottom: 270px; }
+    @media only screen and (min-width: 767px) {
+      body .club .accomodations.container .flickity-page-dots {
+        bottom: 360px; } }
     @media only screen and (min-width: 992px) {
       body .club .accomodations.container .flickity-page-dots {
         bottom: 20px;
         right: 80px; } }
+  body .club .accomodations.container .flickity-prev-next-button {
+    display: block;
+    top: 50px; }
+  @media only screen and (min-width: 992px) {
+    body .club .accomodations.container .previous {
+      top: 40px;
+      left: 38%; } }
+  @media only screen and (min-width: 992px) {
+    body .club .accomodations.container .next {
+      top: 40px;
+      left: 44%; } }
   body .club .accomodations.container .gallery {
-    height: 700px;
+    height: 720px;
     margin-bottom: 50px; }
     @media only screen and (min-width: 992px) {
       body .club .accomodations.container .gallery {
