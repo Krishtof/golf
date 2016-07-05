@@ -1213,8 +1213,6 @@ body .academy .container.coaches {
   body .academy .container.coaches p {
     max-width: 800px;
     margin: 0 auto; }
-  body .academy .container.coaches h3 {
-    line-height: 0px !important; }
   body .academy .container.coaches .btn {
     margin-top: 20px; }
 body .academy .prices {

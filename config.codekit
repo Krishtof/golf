@@ -3830,6 +3830,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/opt\/2595.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/opt\/2595.jpg",
+		"outputAbbreviatedPath": "\/images\/opt\/2595.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/opt\/3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3903,6 +3914,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/images\/opt\/8.jpg",
 		"outputAbbreviatedPath": "\/images\/opt\/8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/opt\/8247.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/opt\/8247.jpg",
+		"outputAbbreviatedPath": "\/images\/opt\/8247.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4281,6 +4303,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/opt\/menu.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/opt\/menu.jpg",
+		"outputAbbreviatedPath": "\/images\/opt\/menu.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/opt\/mozaik.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4431,6 +4464,17 @@
 		"initialSize": 128829,
 		"inputAbbreviatedPath": "\/images\/opt\/szigliget.jpg",
 		"outputAbbreviatedPath": "\/images\/opt\/szigliget.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/opt\/szliget.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/opt\/szliget.jpg",
+		"outputAbbreviatedPath": "\/images\/opt\/szliget.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4871,6 +4915,17 @@
 		"initialSize": 128803,
 		"inputAbbreviatedPath": "\/images\/szigliget.jpg",
 		"outputAbbreviatedPath": "\/images\/szigliget.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/szliget.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.50145e+06,
+		"inputAbbreviatedPath": "\/images\/szliget.jpg",
+		"outputAbbreviatedPath": "\/images\/szliget.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
