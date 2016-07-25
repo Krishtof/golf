@@ -567,6 +567,7 @@ header {
     padding-top: 185px; }
     .cover .col-md-12 .textholder img {
       max-width: 90px;
+      margin-top: -50px;
       margin-bottom: 20px; }
 
 .gallery-cell {
