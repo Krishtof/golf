@@ -3405,7 +3405,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 38702,
+		"initialSize": 36518,
 		"inputAbbreviatedPath": "\/images\/coach2.jpg",
 		"outputAbbreviatedPath": "\/images\/coach2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -3463,17 +3463,6 @@
 		"initialSize": 71255,
 		"inputAbbreviatedPath": "\/images\/csapat.jpg",
 		"outputAbbreviatedPath": "\/images\/csapat.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/decsi.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 13144,
-		"inputAbbreviatedPath": "\/images\/decsi.jpg",
-		"outputAbbreviatedPath": "\/images\/decsi.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
