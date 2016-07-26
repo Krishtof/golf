@@ -1660,7 +1660,8 @@ body .subheader .horizontal {
 body .fees {
   text-align: center; }
   body .fees p {
-    max-width: 800px; }
+    max-width: 800px;
+    margin: 0 auto; }
   body .fees .title {
     text-align: center;
     padding: 50px;
